@@ -1,9 +1,9 @@
 //
 //  NewsViewController.swift
-//  AginicDS Planning Poker
+//  AginicDS Agile Toolkit
 //
 //  Created by Paul Thornton on 06/06/2018.
-//  Copyright © 2018 Paul Thornton. All rights reserved.
+//  Copyright © 2018 AginicDS. All rights reserved.
 //
 
 import WebKit
@@ -17,7 +17,7 @@ class NewsViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        let url = URL(string: "https://www.aginicds.com/our-stories/")
+        let url = URL(string: "http://www.aginicds.com/our-stories/")
         
         let request = URLRequest(url: url!)
         
