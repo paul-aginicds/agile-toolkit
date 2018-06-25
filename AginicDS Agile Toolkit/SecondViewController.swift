@@ -1,9 +1,9 @@
 //
 //  SecondViewController.swift
-//  AginicDS Planning Poker
+//  AginicDS Agile Toolkit
 //
 //  Created by Paul Thornton on 06/06/2018.
-//  Copyright © 2018 Paul Thornton. All rights reserved.
+//  Copyright © 2018 AginicDS. All rights reserved.
 //
 
 import UIKit
@@ -11,11 +11,13 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
+    //@IBOutlet weak var effect: UIVisualEffectView!
+    
+    @IBOutlet weak var webview: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
         
     }
     

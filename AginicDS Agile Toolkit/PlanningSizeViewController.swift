@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  PlanningSizeViewController.swift
 //  AginicDS Agile Toolkit
 //
 //  Created by Paul Thornton on 06/06/2018.
@@ -8,26 +8,31 @@
 
 import UIKit
 
-class PlanningViewController: UIViewController {
 
+class PlanningSizeViewController: UIViewController {
+    
+    var size:String = ""
+    @IBOutlet weak var sizeButton: UIButton!
+    
+    @IBAction func onCloseButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //let webViewController:UIViewController = (super.tabBarController!.viewControllers?.first)!
-        
-        //DispatchQueue.main.async( execute: webViewController.view.setNeedsLayout() )
-        
+        sizeButton.setTitle(size, for: .normal)
         
     }
     
-
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    
+
 
 }
 
