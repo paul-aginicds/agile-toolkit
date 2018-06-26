@@ -1,19 +1,27 @@
 //
-//  RetroDetailViewContoller.swift
+//  AginicViewController.swift
 //  AginicDS Agile Toolkit
 //
-//  Created by Paul Thornton on 07/06/2018.
+//  Created by Paul Thornton on 06/06/2018.
 //  Copyright © 2018 AginicDS. All rights reserved.
 //
 
 import WebKit
 
-class RetroDetailViewController: UIViewController {
+class AginicViewController: UIViewController {
     
-   
+    @IBOutlet weak var webview: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        let url = URL(string: "http://www.aginic.com/")
+        
+        let request = URLRequest(url: url!)
+        
+        webview.loadRequest(request)
         
     }
     

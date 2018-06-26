@@ -194,7 +194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1082" y="-1353"/>
+            <point key="canvasLocation" x="-116" y="-1354"/>
         </scene>
         <!--Planning Poker-->
         <scene sceneID="fEx-Ac-H6F">
@@ -239,7 +239,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="if1-L0-2Oo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="192.80000000000001" y="-1354.4334975369459"/>
+            <point key="canvasLocation" x="945" y="-1354"/>
         </scene>
         <!--Retrospective-->
         <scene sceneID="wg7-f3-ORb">
@@ -309,6 +309,8 @@
                         <segue destination="Era-Am-a80" kind="relationship" relationship="viewControllers" id="Qws-EX-fD0"/>
                         <segue destination="hhJ-eo-Fjp" kind="relationship" relationship="viewControllers" id="LfE-KT-Pzx"/>
                         <segue destination="aQm-HV-SI9" kind="relationship" relationship="viewControllers" id="7BA-gQ-N5L"/>
+                        <segue destination="1ag-7x-sKD" kind="relationship" relationship="viewControllers" id="IvM-cs-OTK"/>
+                        <segue destination="ZHu-R0-cf1" kind="relationship" relationship="viewControllers" id="ieR-9f-coz"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -376,7 +378,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nWU-mk-EQy">
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nWU-mk-EQy" userLabel="Webview">
                                 <rect key="frame" x="0.0" y="66" width="375" height="663"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -387,7 +389,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="News" image="second" id="Jsf-kX-Dg5"/>
                     <connections>
-                        <outlet property="webview" destination="nWU-mk-EQy" id="Q64-OY-LdE"/>
+                        <outlet property="webview" destination="nWU-mk-EQy" id="rUM-dn-byy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="618-fB-Tfj" sceneMemberID="firstResponder"/>
@@ -492,7 +494,7 @@
             </objects>
             <point key="canvasLocation" x="-116" y="1014.5320197044335"/>
         </scene>
-        <!--Services-->
+        <!--AgincDS-->
         <scene sceneID="rVA-fB-ZPP">
             <objects>
                 <viewController id="hhJ-eo-Fjp" customClass="ServicesViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
@@ -509,7 +511,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6bl-gs-wRV"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Services" image="second" id="QyG-JF-xfC"/>
+                    <tabBarItem key="tabBarItem" title="AgincDS" image="second" id="QyG-JF-xfC"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="webview" destination="VeE-Ks-Gs4" id="772-NZ-R4x"/>
@@ -522,65 +524,89 @@
         <!--Timer-->
         <scene sceneID="tEC-Lw-Q04">
             <objects>
-                <viewController id="aQm-HV-SI9" sceneMemberID="viewController">
+                <viewController id="aQm-HV-SI9" customClass="TimerViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UK4-fp-iVb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coming soon..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mel-1R-ccx">
-                                <rect key="frame" x="0.0" y="557" width="375" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIl-cQ-NTO">
                                 <rect key="frame" x="16" y="641" width="70" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startTimerPressed:" destination="aQm-HV-SI9" eventType="touchUpInside" id="pTM-Ey-zqs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOC-Q1-BHW">
-                                <rect key="frame" x="37" y="96" width="48" height="53"/>
+                                <rect key="frame" x="46" y="215" width="44" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="1m"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7O-Lf-67H">
+                                <rect key="frame" x="125" y="216" width="49" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="3m"/>
+                                <connections>
+                                    <action selector="setThreeMins:" destination="aQm-HV-SI9" eventType="touchUpInside" id="FmV-bJ-PDh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFn-GI-Wmn">
+                                <rect key="frame" x="212" y="216" width="48" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="5m"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFn-GI-Wmn">
-                                <rect key="frame" x="155" y="95" width="65" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <state key="normal" title="10m"/>
+                                <connections>
+                                    <action selector="setFiveMins:" destination="aQm-HV-SI9" eventType="touchUpInside" id="gDo-UO-S8v"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jin-qF-uT0">
                                 <rect key="frame" x="290" y="642" width="69" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="stopTimer:" destination="aQm-HV-SI9" eventType="touchUpInside" id="7qA-K4-5ey"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IZP-Hj-WAt">
-                                <rect key="frame" x="282" y="94" width="64" height="53"/>
+                                <rect key="frame" x="286" y="217" width="65" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <state key="normal" title="15m"/>
+                                <state key="normal" title="10m"/>
+                                <connections>
+                                    <action selector="setTenMins:" destination="aQm-HV-SI9" eventType="touchUpInside" id="pcZ-yR-8aR"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="countdown" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubE-h9-CA5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="01:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubE-h9-CA5">
                                 <rect key="frame" x="0.0" y="223" width="375" height="306"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="73"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="120"/>
                                 <color key="textColor" red="0.97647058819999999" green="0.81960784310000001" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="AginicDS_logo_250px" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Shf-om-yC6">
+                                <rect key="frame" x="-63" y="27" width="500" height="169"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" searchField="YES"/>
+                                </accessibility>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="HNQ-gV-jAk"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Timer" image="first" id="Cct-H2-2TT"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="timerLabel" destination="ubE-h9-CA5" id="nxz-r0-J7o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jy1-YY-Y5N" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3737" y="1015"/>
+            <point key="canvasLocation" x="3736.8000000000002" y="1014.5320197044335"/>
         </scene>
         <!--SprintName-->
         <scene sceneID="XSD-CU-fd6">
@@ -662,6 +688,60 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29A-l2-tAe" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4716" y="1014.5320197044335"/>
+        </scene>
+        <!--Aginic-->
+        <scene sceneID="3Fo-q4-753">
+            <objects>
+                <viewController id="1ag-7x-sKD" customClass="AginicViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="35K-2f-z1p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aiV-in-jXz">
+                                <rect key="frame" x="0.0" y="44" width="375" height="685"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="CUN-25-9hd"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Aginic" image="second" id="WMK-iR-4bg"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="webview" destination="aiV-in-jXz" id="HhM-Nq-2kR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AsJ-D1-37c" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5660" y="1015"/>
+        </scene>
+        <!--AginicX-->
+        <scene sceneID="vzY-TS-ngT">
+            <objects>
+                <viewController id="ZHu-R0-cf1" customClass="AginicXViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GdA-yw-dLl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lrt-vW-3zb">
+                                <rect key="frame" x="0.0" y="44" width="375" height="685"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="wYt-qh-ml8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="AginicX" image="second" id="fzY-K6-Ods"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="webview" destination="Lrt-vW-3zb" id="8Vy-yS-WnE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IjO-TB-E48" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6570" y="1015"/>
         </scene>
     </scenes>
     <resources>

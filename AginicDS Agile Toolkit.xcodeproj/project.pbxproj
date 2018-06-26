@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0E2CA420E1C65400E7B5BD /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CA320E1C65400E7B5BD /* TimerViewController.swift */; };
+		3F0E2CA620E1DA6800E7B5BD /* AginicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CA520E1DA6700E7B5BD /* AginicViewController.swift */; };
+		3F0E2CA820E1DA9400E7B5BD /* AginicXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CA720E1DA9400E7B5BD /* AginicXViewController.swift */; };
 		3F15979A20E0B14500E99579 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15979920E0B14500E99579 /* PeopleViewController.swift */; };
 		3F15979C20E0B6E000E99579 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15979B20E0B6E000E99579 /* ContactViewController.swift */; };
 		3F7C877020C77631000B9F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C876F20C77631000B9F4C /* AppDelegate.swift */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0E2CA320E1C65400E7B5BD /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		3F0E2CA520E1DA6700E7B5BD /* AginicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AginicViewController.swift; sourceTree = "<group>"; };
+		3F0E2CA720E1DA9400E7B5BD /* AginicXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AginicXViewController.swift; sourceTree = "<group>"; };
 		3F15979920E0B14500E99579 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		3F15979B20E0B6E000E99579 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		3F7C876C20C77631000B9F4C /* AginicDS Agile Toolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AginicDS Agile Toolkit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +122,9 @@
 				3F7C877A20C77634000B9F4C /* LaunchScreen.storyboard */,
 				3F7C877D20C77634000B9F4C /* Info.plist */,
 				3F7C879320C80851000B9F4C /* NewsViewController.swift */,
+				3F0E2CA520E1DA6700E7B5BD /* AginicViewController.swift */,
+				3F0E2CA720E1DA9400E7B5BD /* AginicXViewController.swift */,
+				3F0E2CA320E1C65400E7B5BD /* TimerViewController.swift */,
 				3F15979920E0B14500E99579 /* PeopleViewController.swift */,
 				3FA8FF5C20E10F5900C0C4CA /* ServicesViewController.swift */,
 				3F7C87B320C8B0BC000B9F4C /* RetroViewController.swift */,
@@ -256,12 +265,15 @@
 				3F15979C20E0B6E000E99579 /* ContactViewController.swift in Sources */,
 				3F15979A20E0B14500E99579 /* PeopleViewController.swift in Sources */,
 				3F7C87B820C8C471000B9F4C /* RetroDetailViewContoller.swift in Sources */,
+				3F0E2CA620E1DA6800E7B5BD /* AginicViewController.swift in Sources */,
 				3F7C877020C77631000B9F4C /* AppDelegate.swift in Sources */,
 				3FA8FF5920E0C03600C0C4CA /* PlanningSizeViewController.swift in Sources */,
 				3FA8FF5720E0BCC700C0C4CA /* PlanningViewController.swift in Sources */,
+				3F0E2CA820E1DA9400E7B5BD /* AginicXViewController.swift in Sources */,
 				3F7C87B420C8B0BC000B9F4C /* RetroViewController.swift in Sources */,
 				3FA8FF5B20E10D7300C0C4CA /* AboutViewController.swift in Sources */,
 				3FA8FF5D20E10F5900C0C4CA /* ServicesViewController.swift in Sources */,
+				3F0E2CA420E1C65400E7B5BD /* TimerViewController.swift in Sources */,
 				3F7C879420C80851000B9F4C /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
