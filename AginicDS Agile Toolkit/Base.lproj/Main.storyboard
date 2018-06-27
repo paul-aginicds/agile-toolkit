@@ -325,50 +325,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Effective agile delivery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XiZ-Yi-a8x">
-                                <rect key="frame" x="152" y="124" width="146" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="AginicDS_logo_250px" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cna-UG-GnD">
-                                <rect key="frame" x="-63" y="-27" width="500" height="228"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="AginicDS_logo_250px" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cna-UG-GnD">
+                                <rect key="frame" x="62.666666666666657" y="30" width="249.99999999999997" height="114"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" image="YES" searchField="YES"/>
                                 </accessibility>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agile Toolkit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tw-WM-UxM">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agile Toolkit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tw-WM-UxM">
+                                <rect key="frame" x="47" y="152" width="281" height="72"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="60"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="Icon-Toolkit2.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FTg-kb-csR">
-                                <rect key="frame" x="87" y="403" width="200" height="200"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BETA RELEASE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9C7-uq-fQT">
+                                <rect key="frame" x="99.666666666666671" y="232" width="175.66666666666663" height="33.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
+                                <color key="textColor" red="0.97647058819999999" green="0.81960784310000001" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.59999999999999998" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="Icon-Toolkit2.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FTg-kb-csR">
+                                <rect key="frame" x="100.66666666666669" y="344" width="174" height="153"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" image="YES" searchField="YES"/>
                                 </accessibility>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BETA RELEASE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9C7-uq-fQT">
-                                <rect key="frame" x="0.0" y="658" width="375" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
-                                <color key="textColor" red="0.97647058819999999" green="0.81960784310000001" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Effective agile delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Akq-jP-bFh">
+                                <rect key="frame" x="169" y="121" width="143" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3tw-WM-UxM" firstAttribute="centerX" secondItem="k4W-J9-izG" secondAttribute="centerX" id="AHQ-kw-6u6"/>
+                            <constraint firstItem="FTg-kb-csR" firstAttribute="centerX" secondItem="k4W-J9-izG" secondAttribute="centerX" id="MmB-nS-1gl"/>
+                            <constraint firstItem="FTg-kb-csR" firstAttribute="top" secondItem="3tw-WM-UxM" secondAttribute="bottom" constant="120" id="Nek-xi-Kiy"/>
+                            <constraint firstItem="cna-UG-GnD" firstAttribute="top" secondItem="k4W-J9-izG" secondAttribute="top" constant="30" id="Ofq-Nn-KrS"/>
+                            <constraint firstItem="9C7-uq-fQT" firstAttribute="top" secondItem="3tw-WM-UxM" secondAttribute="bottom" constant="8" id="gFz-Hz-9GC"/>
+                            <constraint firstItem="cna-UG-GnD" firstAttribute="centerX" secondItem="k4W-J9-izG" secondAttribute="centerX" id="hW4-Re-1MI"/>
+                            <constraint firstItem="3tw-WM-UxM" firstAttribute="top" secondItem="cna-UG-GnD" secondAttribute="bottom" constant="8" id="syc-AI-rCD"/>
+                            <constraint firstItem="9C7-uq-fQT" firstAttribute="centerX" secondItem="k4W-J9-izG" secondAttribute="centerX" id="uSc-sR-cNI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="5hM-8m-BRg"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="first" id="oFE-yK-JUG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u9g-Jr-w15" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3759.1999999999998" y="1014.5320197044335"/>
+            <point key="canvasLocation" x="-2378.4000000000001" y="1014.5320197044335"/>
         </scene>
         <!--News-->
         <scene sceneID="qMG-Me-lgw">
@@ -394,7 +400,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="618-fB-Tfj" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1719.2" y="1014.5320197044335"/>
+            <point key="canvasLocation" x="-1257" y="1015"/>
         </scene>
         <!--Contact-->
         <scene sceneID="A9b-9A-R23">
