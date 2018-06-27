@@ -11,11 +11,6 @@ import UIKit
 
 class PlanningViewController: UIViewController {
     
-
-    @IBOutlet weak var buttonOne: UIButton!
-    
-    @IBOutlet weak var buttonTwo: UIButton!
-
     var s:String = ""
     
     @IBAction func didHitButton(_ sender: UIButton) {
