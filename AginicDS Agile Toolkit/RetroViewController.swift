@@ -9,11 +9,18 @@
 import WebKit
 
 class RetroViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate {
+    var s:String = ""
     
     @IBOutlet weak var picker: UIPickerView!
     
+    @IBAction func didHitButton(_ sender: UIButton) {
+        
+        s = pickerData[picker.selectedRow(inComponent: 0)]
+        
+        
+    }
     
-    let pickerData = ["Well, Improve","Stop, Start, Continue","4Ls","Mad, Bad, Sad","Sailing","..."]
+    let pickerData = ["Well, Improve","Stop, Start, Continue","4Ls","Mad, Bad, Sad","Sailing","+ Δ", "WARP", "Proud, Worried", "Lean Coffee"]
 
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -32,12 +39,17 @@ class RetroViewController: UIViewController,UIPickerViewDataSource,UIPickerViewD
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
         picker.delegate = self
         picker.dataSource = self
-        
-        
-        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.destination is RetroDetailViewController
+        {
+            let vc = segue.destination as? RetroDetailViewController
+            vc?.technique = s
+        }
     }
     
     

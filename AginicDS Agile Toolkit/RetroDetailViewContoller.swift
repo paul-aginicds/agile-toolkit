@@ -10,10 +10,15 @@ import WebKit
 
 class RetroDetailViewController: UIViewController {
     
-   
+   var technique:String = ""
+    
+    @IBOutlet weak var retroLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        retroLabel.text = technique
         
     }
     
