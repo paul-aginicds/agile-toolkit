@@ -1,5 +1,5 @@
 //
-//  RetroDetailViewContoller.swift
+//  RetroHowToViewController.swift
 //  AginicDS Agile Toolkit
 //
 //  Created by Paul Thornton on 07/06/2018.
@@ -8,17 +8,15 @@
 
 import WebKit
 
-class RetroDetailViewController: UIViewController {
+class RetroHowToViewController: UIViewController {
     
-   var technique:String = ""
     
-    @IBOutlet weak var retroLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        retroLabel.text = technique
+   
         
     }
     

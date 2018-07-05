@@ -20,7 +20,7 @@ class RetroViewController: UIViewController,UIPickerViewDataSource,UIPickerViewD
         
     }
     
-    let pickerData = ["Well, Improve","Stop, Start, Continue","4Ls","Mad, Bad, Sad","Sailing","+ Δ", "WARP", "Proud, Worried", "Lean Coffee"]
+    let pickerData = ["Well, Improve","Stop, Start, Continue","4Ls","Mad, Bad, Sad","Sailing","+ Δ", "WARP", "Proud, Worried", "Lean Coffee", "Hero, Guide, Treasure, Cavern"]
 
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -57,7 +57,9 @@ class RetroViewController: UIViewController,UIPickerViewDataSource,UIPickerViewD
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    @IBAction func onCloseButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     
 }
 

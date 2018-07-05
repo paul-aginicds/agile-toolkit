@@ -1,14 +1,14 @@
 //
-//  AginicDS_Agile_ToolkitUITests.swift
-//  AginicDS Agile ToolkitUITests
+//  AginicDS_Agile_ToolkitUITests1.swift
+//  AginicDS Agile ToolkitUITests1
 //
-//  Created by Paul Thornton on 17/06/2018.
+//  Created by Paul Thornton on 28/06/2018.
 //  Copyright © 2018 Paul Thornton. All rights reserved.
 //
 
 import XCTest
 
-class AginicDS_Agile_ToolkitUITests: XCTestCase {
+class AginicDS_Agile_ToolkitUITests1: XCTestCase {
         
     override func setUp() {
         super.setUp()

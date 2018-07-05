@@ -7,6 +7,7 @@
 //
 
 import WebKit
+import AudioToolbox.AudioServices
 
 class TimerViewController: UIViewController {
     
@@ -19,10 +20,12 @@ class TimerViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
         
     }
     
     func startTimer() {
+        startButton.isEnabled = false
         countdownTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
     }
     
@@ -33,13 +36,22 @@ class TimerViewController: UIViewController {
             totalTime -= 1
         } else {
             endTimer()
+            startButton.isEnabled = true
+        }
+        if totalTime <= 10 {
+            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
         }
     }
     
     func endTimer() {
-        if countdownTimer.isValid {
-            countdownTimer.invalidate()
+        
+        if countdownTimer != nil {
+        
+            if countdownTimer.isValid {
+                countdownTimer.invalidate()
+            }
         }
+        startButton.isEnabled = true
     }
     
     func timeFormatted(_ totalSeconds: Int) -> String {
@@ -49,9 +61,35 @@ class TimerViewController: UIViewController {
         return String(format: "%02d:%02d", minutes, seconds)
     }
     
+    @IBAction func setOneMins(_ sender: Any) {
+        endTimer()
+        totalTime = 60
+        startTimer()
+    }
+    
     @IBAction func setTenMins(_ sender: Any) {
         endTimer()
         totalTime = 600
+        startTimer()
+    }
+    
+    @IBAction func set60Mins(_ sender: Any) {
+        endTimer()
+        totalTime = 3600
+        startTimer()
+    }
+    
+    @IBOutlet weak var startButton: UIButton!
+    @IBAction func set15Mins(_ sender: Any) {
+        
+        endTimer()
+        totalTime = 900
+        startTimer()
+    }
+    
+    @IBAction func set30Mins(_ sender: Any) {
+        endTimer()
+        totalTime = 1800
         startTimer()
     }
     
@@ -71,6 +109,8 @@ class TimerViewController: UIViewController {
     
     @IBAction func stopTimer(_ sender: Any) {
         endTimer()
+        let notification = UINotificationFeedbackGenerator()
+        notification.notificationOccurred(.success)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

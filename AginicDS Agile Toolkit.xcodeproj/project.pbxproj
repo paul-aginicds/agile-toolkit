@@ -12,6 +12,7 @@
 		3F0E2CA820E1DA9400E7B5BD /* AginicXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CA720E1DA9400E7B5BD /* AginicXViewController.swift */; };
 		3F15979A20E0B14500E99579 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15979920E0B14500E99579 /* PeopleViewController.swift */; };
 		3F15979C20E0B6E000E99579 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15979B20E0B6E000E99579 /* ContactViewController.swift */; };
+		3F6C894220E4D57300B54E70 /* AginicDS_Agile_ToolkitUITests1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C894120E4D57300B54E70 /* AginicDS_Agile_ToolkitUITests1.swift */; };
 		3F7C877020C77631000B9F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C876F20C77631000B9F4C /* AppDelegate.swift */; };
 		3F7C877720C77631000B9F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C877520C77631000B9F4C /* Main.storyboard */; };
 		3F7C877920C77634000B9F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C877820C77634000B9F4C /* Assets.xcassets */; };
@@ -29,11 +30,15 @@
 		3FA8FF5920E0C03600C0C4CA /* PlanningSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5820E0C03600C0C4CA /* PlanningSizeViewController.swift */; };
 		3FA8FF5B20E10D7300C0C4CA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5A20E10D7300C0C4CA /* AboutViewController.swift */; };
 		3FA8FF5D20E10F5900C0C4CA /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5C20E10F5900C0C4CA /* ServicesViewController.swift */; };
-		3FCD791F20D68704006D01C5 /* AginicDS_Agile_ToolkitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD791E20D68704006D01C5 /* AginicDS_Agile_ToolkitUITests.swift */; };
+		3FD74AF420EC51B700C0E23D /* RetroHowToViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD74AF320EC51B700C0E23D /* RetroHowToViewContoller.swift */; };
+		3FD74AF620EC5B9700C0E23D /* SceneKit Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3FD74AF520EC5B9700C0E23D /* SceneKit Scene.scn */; };
+		3FD74AF820EC90D500C0E23D /* SceneKitScene1.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3FD74AF720EC90D500C0E23D /* SceneKitScene1.scn */; };
+		3FD74B0B20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FD74B0A20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg */; };
+		3FFB1FDB20EB1D5B0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB1FDA20EB1D5A0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3FCD792120D68704006D01C5 /* PBXContainerItemProxy */ = {
+		3F6C894420E4D57300B54E70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F7C876420C77631000B9F4C /* Project object */;
 			proxyType = 1;
@@ -48,6 +53,9 @@
 		3F0E2CA720E1DA9400E7B5BD /* AginicXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AginicXViewController.swift; sourceTree = "<group>"; };
 		3F15979920E0B14500E99579 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		3F15979B20E0B6E000E99579 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		3F6C893F20E4D57300B54E70 /* AginicDS Agile ToolkitUITests1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AginicDS Agile ToolkitUITests1.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6C894120E4D57300B54E70 /* AginicDS_Agile_ToolkitUITests1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AginicDS_Agile_ToolkitUITests1.swift; sourceTree = "<group>"; };
+		3F6C894320E4D57300B54E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F7C876C20C77631000B9F4C /* AginicDS Agile Toolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AginicDS Agile Toolkit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7C876F20C77631000B9F4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7C877620C77631000B9F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,20 +75,22 @@
 		3FA8FF5820E0C03600C0C4CA /* PlanningSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningSizeViewController.swift; sourceTree = "<group>"; };
 		3FA8FF5A20E10D7300C0C4CA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		3FA8FF5C20E10F5900C0C4CA /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
-		3FCD791C20D68704006D01C5 /* AginicDS Agile ToolkitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AginicDS Agile ToolkitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FCD791E20D68704006D01C5 /* AginicDS_Agile_ToolkitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AginicDS_Agile_ToolkitUITests.swift; sourceTree = "<group>"; };
-		3FCD792020D68704006D01C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD74AF320EC51B700C0E23D /* RetroHowToViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetroHowToViewContoller.swift; sourceTree = "<group>"; };
+		3FD74AF520EC5B9700C0E23D /* SceneKit Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "SceneKit Scene.scn"; sourceTree = "<group>"; };
+		3FD74AF720EC90D500C0E23D /* SceneKitScene1.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SceneKitScene1.scn; sourceTree = "<group>"; };
+		3FD74B0A20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2017_09_12_AginicDS_3243_1.jpg; sourceTree = "<group>"; };
+		3FFB1FDA20EB1D5A0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2017_09_12_AginicDS_3409_1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F7C876920C77631000B9F4C /* Frameworks */ = {
+		3F6C893C20E4D57300B54E70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FCD791920D68704006D01C5 /* Frameworks */ = {
+		3F7C876920C77631000B9F4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,11 +100,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F6C894020E4D57300B54E70 /* AginicDS Agile ToolkitUITests1 */ = {
+			isa = PBXGroup;
+			children = (
+				3F6C894120E4D57300B54E70 /* AginicDS_Agile_ToolkitUITests1.swift */,
+				3F6C894320E4D57300B54E70 /* Info.plist */,
+			);
+			path = "AginicDS Agile ToolkitUITests1";
+			sourceTree = "<group>";
+		};
 		3F7C876320C77631000B9F4C = {
 			isa = PBXGroup;
 			children = (
+				3FD74AF520EC5B9700C0E23D /* SceneKit Scene.scn */,
+				3FD74AF720EC90D500C0E23D /* SceneKitScene1.scn */,
 				3F7C876E20C77631000B9F4C /* AginicDS Agile Toolkit */,
-				3FCD791D20D68704006D01C5 /* AginicDS Agile ToolkitUITests */,
+				3F6C894020E4D57300B54E70 /* AginicDS Agile ToolkitUITests1 */,
 				3F7C876D20C77631000B9F4C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				3F7C876C20C77631000B9F4C /* AginicDS Agile Toolkit.app */,
-				3FCD791C20D68704006D01C5 /* AginicDS Agile ToolkitUITests.xctest */,
+				3F6C893F20E4D57300B54E70 /* AginicDS Agile ToolkitUITests1.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +139,8 @@
 				3FA8FF5820E0C03600C0C4CA /* PlanningSizeViewController.swift */,
 				3F15979B20E0B6E000E99579 /* ContactViewController.swift */,
 				3F7C877520C77631000B9F4C /* Main.storyboard */,
+				3FD74B0A20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg */,
+				3FFB1FDA20EB1D5A0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg */,
 				3F7C877820C77634000B9F4C /* Assets.xcassets */,
 				3F7C877A20C77634000B9F4C /* LaunchScreen.storyboard */,
 				3F7C877D20C77634000B9F4C /* Info.plist */,
@@ -129,6 +152,7 @@
 				3FA8FF5C20E10F5900C0C4CA /* ServicesViewController.swift */,
 				3F7C87B320C8B0BC000B9F4C /* RetroViewController.swift */,
 				3F7C87B720C8C471000B9F4C /* RetroDetailViewContoller.swift */,
+				3FD74AF320EC51B700C0E23D /* RetroHowToViewContoller.swift */,
 			);
 			path = "AginicDS Agile Toolkit";
 			sourceTree = "<group>";
@@ -146,18 +170,27 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		3FCD791D20D68704006D01C5 /* AginicDS Agile ToolkitUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3FCD791E20D68704006D01C5 /* AginicDS_Agile_ToolkitUITests.swift */,
-				3FCD792020D68704006D01C5 /* Info.plist */,
-			);
-			path = "AginicDS Agile ToolkitUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F6C893E20E4D57300B54E70 /* AginicDS Agile ToolkitUITests1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6C894620E4D57300B54E70 /* Build configuration list for PBXNativeTarget "AginicDS Agile ToolkitUITests1" */;
+			buildPhases = (
+				3F6C893B20E4D57300B54E70 /* Sources */,
+				3F6C893C20E4D57300B54E70 /* Frameworks */,
+				3F6C893D20E4D57300B54E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6C894520E4D57300B54E70 /* PBXTargetDependency */,
+			);
+			name = "AginicDS Agile ToolkitUITests1";
+			productName = "AginicDS Agile ToolkitUITests1";
+			productReference = 3F6C893F20E4D57300B54E70 /* AginicDS Agile ToolkitUITests1.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		3F7C876B20C77631000B9F4C /* AginicDS Agile Toolkit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F7C878020C77634000B9F4C /* Build configuration list for PBXNativeTarget "AginicDS Agile Toolkit" */;
@@ -175,24 +208,6 @@
 			productReference = 3F7C876C20C77631000B9F4C /* AginicDS Agile Toolkit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3FCD791B20D68704006D01C5 /* AginicDS Agile ToolkitUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3FCD792320D68704006D01C5 /* Build configuration list for PBXNativeTarget "AginicDS Agile ToolkitUITests" */;
-			buildPhases = (
-				3FCD791820D68704006D01C5 /* Sources */,
-				3FCD791920D68704006D01C5 /* Frameworks */,
-				3FCD791A20D68704006D01C5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3FCD792220D68704006D01C5 /* PBXTargetDependency */,
-			);
-			name = "AginicDS Agile ToolkitUITests";
-			productName = "AginicDS Agile ToolkitUITests";
-			productReference = 3FCD791C20D68704006D01C5 /* AginicDS Agile ToolkitUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,12 +218,12 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Paul Thornton";
 				TargetAttributes = {
-					3F7C876B20C77631000B9F4C = {
-						CreatedOnToolsVersion = 9.4;
-					};
-					3FCD791B20D68704006D01C5 = {
+					3F6C893E20E4D57300B54E70 = {
 						CreatedOnToolsVersion = 9.4;
 						TestTargetID = 3F7C876B20C77631000B9F4C;
+					};
+					3F7C876B20C77631000B9F4C = {
+						CreatedOnToolsVersion = 9.4;
 					};
 				};
 			};
@@ -226,21 +241,32 @@
 			projectRoot = "";
 			targets = (
 				3F7C876B20C77631000B9F4C /* AginicDS Agile Toolkit */,
-				3FCD791B20D68704006D01C5 /* AginicDS Agile ToolkitUITests */,
+				3F6C893E20E4D57300B54E70 /* AginicDS Agile ToolkitUITests1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F6C893D20E4D57300B54E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F7C876A20C77631000B9F4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3F7C87BE20C8CAA5000B9F4C /* Icon-Toolkit2.png in Resources */,
+				3FD74B0B20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg in Resources */,
+				3FD74AF620EC5B9700C0E23D /* SceneKit Scene.scn in Resources */,
 				3F7C878420C77732000B9F4C /* AginicDS_logo_500px.png in Resources */,
 				3F7C877C20C77634000B9F4C /* LaunchScreen.storyboard in Resources */,
 				3F7C87B620C8C3E2000B9F4C /* retro1.jpeg in Resources */,
+				3FD74AF820EC90D500C0E23D /* SceneKitScene1.scn in Resources */,
 				3F7C878820C782E5000B9F4C /* AppIcon-180.png in Resources */,
+				3FFB1FDB20EB1D5B0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg in Resources */,
 				3F7C877920C77634000B9F4C /* Assets.xcassets in Resources */,
 				3F7C87BA20C8C9DE000B9F4C /* Icon-Toolkit.png in Resources */,
 				3F7C878620C78028000B9F4C /* AginicDS_logo_250px.png in Resources */,
@@ -248,16 +274,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FCD791A20D68704006D01C5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F6C893B20E4D57300B54E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6C894220E4D57300B54E70 /* AginicDS_Agile_ToolkitUITests1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F7C876820C77631000B9F4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,25 +301,18 @@
 				3FA8FF5B20E10D7300C0C4CA /* AboutViewController.swift in Sources */,
 				3FA8FF5D20E10F5900C0C4CA /* ServicesViewController.swift in Sources */,
 				3F0E2CA420E1C65400E7B5BD /* TimerViewController.swift in Sources */,
+				3FD74AF420EC51B700C0E23D /* RetroHowToViewContoller.swift in Sources */,
 				3F7C879420C80851000B9F4C /* NewsViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FCD791820D68704006D01C5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FCD791F20D68704006D01C5 /* AginicDS_Agile_ToolkitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3FCD792220D68704006D01C5 /* PBXTargetDependency */ = {
+		3F6C894520E4D57300B54E70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3F7C876B20C77631000B9F4C /* AginicDS Agile Toolkit */;
-			targetProxy = 3FCD792120D68704006D01C5 /* PBXContainerItemProxy */;
+			targetProxy = 3F6C894420E4D57300B54E70 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -316,6 +336,49 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F6C894720E4D57300B54E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "AginicDS Agile ToolkitUITests1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "proteusmx.AginicDS-Agile-ToolkitUITests1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AginicDS Agile Toolkit";
+			};
+			name = Debug;
+		};
+		3F6C894820E4D57300B54E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "AginicDS Agile ToolkitUITests1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "proteusmx.AginicDS-Agile-ToolkitUITests1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AginicDS Agile Toolkit";
+			};
+			name = Release;
+		};
 		3F7C877E20C77634000B9F4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -444,7 +507,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "aginicds.AginicDS-AgileToolkit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,51 +525,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "aginicds.AginicDS-AgileToolkit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3FCD792420D68704006D01C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TX2F62TKQ8;
-				INFOPLIST_FILE = "AginicDS Agile ToolkitUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "proteusmx.AginicDS-Agile-ToolkitUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "AginicDS Agile Toolkit";
-			};
-			name = Debug;
-		};
-		3FCD792520D68704006D01C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TX2F62TKQ8;
-				INFOPLIST_FILE = "AginicDS Agile ToolkitUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "proteusmx.AginicDS-Agile-ToolkitUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "AginicDS Agile Toolkit";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F6C894620E4D57300B54E70 /* Build configuration list for PBXNativeTarget "AginicDS Agile ToolkitUITests1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6C894720E4D57300B54E70 /* Debug */,
+				3F6C894820E4D57300B54E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3F7C876720C77631000B9F4C /* Build configuration list for PBXProject "AginicDS Agile Toolkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -521,15 +555,6 @@
 			buildConfigurations = (
 				3F7C878120C77634000B9F4C /* Debug */,
 				3F7C878220C77634000B9F4C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3FCD792320D68704006D01C5 /* Build configuration list for PBXNativeTarget "AginicDS Agile ToolkitUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3FCD792420D68704006D01C5 /* Debug */,
-				3FCD792520D68704006D01C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
