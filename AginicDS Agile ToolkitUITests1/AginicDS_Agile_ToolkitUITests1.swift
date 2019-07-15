@@ -33,4 +33,21 @@ class AginicDS_Agile_ToolkitUITests1: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testGameLoad() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let element = XCUIApplication().children(matching: .window).element(boundBy: 4).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element(boundBy: 2)
+        element.tap()
+        
+        let app = XCUIApplication()
+        app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.tap()
+        
+        let tabBarsQuery = app.tabBars
+        tabBarsQuery.buttons["More"].tap()
+        app.tables/*@START_MENU_TOKEN@*/.staticTexts["Game"]/*[[".cells.staticTexts[\"Game\"]",".staticTexts[\"Game\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        tabBarsQuery.buttons["Slpash"].tap()
+        
+    }
+    
 }

@@ -41,8 +41,8 @@
 		3FEE48BD22DC551600C3ACAA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE48BC22DC551500C3ACAA /* art.scnassets */; };
 		3FEE48C122DC581F00C3ACAA /* aginic_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE48C022DC581E00C3ACAA /* aginic_logo.png */; };
 		3FEE48C322DC805D00C3ACAA /* AginicXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE48C222DC805D00C3ACAA /* AginicXViewController.swift */; };
+		3FEE48C522DC836D00C3ACAA /* MotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7994E822D989B10086FFBB /* MotionHelper.swift */; };
 		3FF92F8922D8538D00C3A43D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF92F8822D8538D00C3A43D /* GameViewController.swift */; };
-		3FF92F9022D85A7100C3A43D /* MotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF92F8D22D8577A00C3A43D /* MotionHelper.swift */; };
 		3FFB1FDB20EB1D5B0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFB1FDA20EB1D5A0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg */; };
 /* End PBXBuildFile section */
 
@@ -97,8 +97,9 @@
 		3FEE48C022DC581E00C3ACAA /* aginic_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aginic_logo.png; sourceTree = "<group>"; };
 		3FEE48C222DC805D00C3ACAA /* AginicXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AginicXViewController.swift; sourceTree = "<group>"; };
 		3FEE48C422DC819300C3ACAA /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		3FEE48CE22DCA52600C3ACAA /* AginicDS_Agile_ToolkitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AginicDS_Agile_ToolkitTests.swift; sourceTree = "<group>"; };
+		3FEE48D022DCA52600C3ACAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FF92F8822D8538D00C3A43D /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		3FF92F8D22D8577A00C3A43D /* MotionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MotionHelper.swift; path = "AginicDS Agile Toolkit/Helper/MotionHelper.swift"; sourceTree = "<group>"; };
 		3FFB1FDA20EB1D5A0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2017_09_12_AginicDS_3409_1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,6 +154,7 @@
 			children = (
 				3F7C876E20C77631000B9F4C /* AginicDS Agile Toolkit */,
 				3F6C894020E4D57300B54E70 /* AginicDS Agile ToolkitUITests1 */,
+				3FEE48CD22DCA52600C3ACAA /* AginicDS Agile ToolkitTests */,
 				3F7C876D20C77631000B9F4C /* Products */,
 				3FF92F8C22D8577A00C3A43D /* Frameworks */,
 			);
@@ -233,10 +235,18 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		3FEE48CD22DCA52600C3ACAA /* AginicDS Agile ToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE48CE22DCA52600C3ACAA /* AginicDS_Agile_ToolkitTests.swift */,
+				3FEE48D022DCA52600C3ACAA /* Info.plist */,
+			);
+			path = "AginicDS Agile ToolkitTests";
+			sourceTree = "<group>";
+		};
 		3FF92F8C22D8577A00C3A43D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3FF92F8D22D8577A00C3A43D /* MotionHelper.swift */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -285,7 +295,7 @@
 		3F7C876420C77631000B9F4C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Aginic Delivery Services";
 				TargetAttributes = {
@@ -366,12 +376,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF92F9022D85A7100C3A43D /* MotionHelper.swift in Sources */,
 				3F15979C20E0B6E000E99579 /* ContactViewController.swift in Sources */,
 				3F15979A20E0B14500E99579 /* PeopleViewController.swift in Sources */,
 				3F7C87B820C8C471000B9F4C /* RetroDetailViewContoller.swift in Sources */,
 				3F0E2CA620E1DA6800E7B5BD /* AginicViewController.swift in Sources */,
 				3F7C877020C77631000B9F4C /* AppDelegate.swift in Sources */,
+				3FEE48C522DC836D00C3ACAA /* MotionHelper.swift in Sources */,
 				3FA8FF5920E0C03600C0C4CA /* PlanningSizeViewController.swift in Sources */,
 				3FA8FF5720E0BCC700C0C4CA /* PlanningViewController.swift in Sources */,
 				3F7C87B420C8B0BC000B9F4C /* RetroViewController.swift in Sources */,
@@ -420,9 +430,10 @@
 		3F6C894720E4D57300B54E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G586M8J33;
 				INFOPLIST_FILE = "AginicDS Agile ToolkitUITests1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,6 +444,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "AginicDS Agile Toolkit";

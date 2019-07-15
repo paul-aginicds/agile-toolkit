@@ -13,22 +13,39 @@ import AudioToolbox
 class GameViewController: UIViewController {
     
     let CategoryTree = 2
-    
+
+    var score:Int = 0
+    var timeCount:Float = 0
+
     var sceneView:SCNView!
     var scene:SCNScene!
     
     var ballNode:SCNNode!
     var selfieStickNode:SCNNode!
-    
+
+    var scoreNode:SCNNode!
+    var timeNode:SCNNode!
+
     var motion = MotionHelper()
     var motionForce = SCNVector3(0, 0, 0)
     
     var sounds:[String:SCNAudioSource] = [:]
     
+    
     override func viewDidLoad() {
+        score = 0
+        timeCount = 0
+        let timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(fire), userInfo: nil, repeats: true)
+
         setupScene()
         setupNodes()
         setupSounds()
+    }
+    
+    
+    @objc func fire()
+    {
+        timeCount = timeCount + 0.01
     }
     
     func setupScene(){
@@ -58,6 +75,8 @@ class GameViewController: UIViewController {
         ballNode = scene.rootNode.childNode(withName: "ball", recursively: true)!
         ballNode.physicsBody?.contactTestBitMask = CategoryTree
         selfieStickNode = scene.rootNode.childNode(withName: "selfieStick", recursively: true)!
+        scoreNode = scene.rootNode.childNode(withName: "scoreNode", recursively: true)!
+        timeNode = scene.rootNode.childNode(withName: "timeNode", recursively: true)!
     }
     
     func setupSounds() {
@@ -127,6 +146,8 @@ extension GameViewController : SCNSceneRendererDelegate {
         
         let targetPosition = SCNVector3(x: ballPosition.x, y: ballPosition.y + 5, z:ballPosition.z + 5)
         var cameraPosition = selfieStickNode.position
+        var scorePosition = selfieStickNode.position
+        var timePosition = selfieStickNode.position
         
         let camDamping:Float = 0.1
         
@@ -135,11 +156,23 @@ extension GameViewController : SCNSceneRendererDelegate {
         let zComponent = cameraPosition.z * (1 - camDamping) + targetPosition.z * camDamping
         
         cameraPosition = SCNVector3(x: xComponent, y: yComponent, z: zComponent)
+        scorePosition = SCNVector3(x: xComponent - 2.1, y: yComponent - 3, z: zComponent + 3)
+        timePosition = SCNVector3(x: xComponent + 1.4, y: yComponent - 3, z: zComponent + 3)
+
         selfieStickNode.position = cameraPosition
         
-        
+        scoreNode.position = scorePosition
+        timeNode.position = timePosition
+
+        if let textGeometry = scoreNode.geometry as? SCNText {
+            textGeometry.string = String(score)
+        }
+        if let timeGeometry = timeNode.geometry as? SCNText {
+            timeGeometry.string = String(round(1000*timeCount)/1000)
+        }
+
         motion.getAccelerometerData { (x, y, z) in
-            self.motionForce = SCNVector3(x: x * 0.1, y:0, z: (y + 0.8) * -0.02)
+            self.motionForce = SCNVector3(x: x * 0.2, y:0, z: (y + 0.8) * -0.15)
         }
         
         
@@ -159,14 +192,30 @@ extension GameViewController : SCNPhysicsContactDelegate {
         }else{
             contactNode = contact.nodeA
         }
+
+        if contactNode.physicsBody?.categoryBitMask == 6 {
+            contactNode.isHidden = true
+            
+//            _ = SCNAction.wait(duration: 2)
+//            _ = SCNAction.run { (node) in
+                self.viewDidLoad()
+//            }
+            
+        }
         
-        if contactNode.physicsBody?.categoryBitMask == 5 {
-            viewDidLoad()
+        if contactNode.physicsBody?.categoryBitMask == 7 {
+            self.score = self.score - 10
+            contactNode.isHidden = true
         }
 
         if contactNode.physicsBody?.categoryBitMask == 4 {
             contactNode.isHidden = true
             AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+            
+            _ = SCNAction.wait(duration: 1)
+            _ = SCNAction.run { (node) in
+                self.score = self.score - 1
+            }
             
             let sawSound = sounds["saw"]!
             ballNode.runAction(SCNAction.playAudio(sawSound, waitForCompletion: false))
@@ -184,6 +233,8 @@ extension GameViewController : SCNPhysicsContactDelegate {
         if contactNode.physicsBody?.categoryBitMask == 3 {
             contactNode.isHidden = true
             //AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+            
+            score = score + 10
             
             let sawSound = sounds["jump"]!
             ballNode.runAction(SCNAction.playAudio(sawSound, waitForCompletion: false))
@@ -204,6 +255,8 @@ extension GameViewController : SCNPhysicsContactDelegate {
             
             AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
 
+            score = score - 1
+            
             //let sawSound = sounds["saw"]!
             //ballNode.runAction(SCNAction.playAudio(sawSound, waitForCompletion: false))
             
