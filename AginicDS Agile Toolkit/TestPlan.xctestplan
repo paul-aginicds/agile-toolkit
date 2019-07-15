@@ -1,0 +1,23 @@
+{
+  "configurations" : [
+    {
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:AginicDS Agile Toolkit.xcodeproj",
+        "identifier" : "3F6C893E20E4D57300B54E70",
+        "name" : "AginicDS Agile ToolkitUITests1"
+      }
+    }
+  ],
+  "version" : 1
+}

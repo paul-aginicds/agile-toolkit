@@ -16,8 +16,7 @@ class RetroViewController: UIViewController,UIPickerViewDataSource,UIPickerViewD
     @IBAction func didHitButton(_ sender: UIButton) {
         
         s = pickerData[picker.selectedRow(inComponent: 0)]
-        
-        
+
     }
     
     let pickerData = ["Well, Improve","Stop, Start, Continue","4Ls","Mad, Bad, Sad","Sailing","+ Δ", "WARP", "Proud, Worried", "Lean Coffee", "Hero, Guide, Treasure, Cavern"]

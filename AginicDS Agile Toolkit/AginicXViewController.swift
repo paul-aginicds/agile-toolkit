@@ -1,5 +1,5 @@
 //
-//  AginicXViewController.swift
+//  AginicViewController.swift
 //  AginicDS Agile Toolkit
 //
 //  Created by Paul Thornton on 06/06/2018.
@@ -17,7 +17,7 @@ class AginicXViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        let url = URL(string: "http://www.aginicx.com/")
+        let url = URL(string: "http://www.aginic.com/")
         
         let request = URLRequest(url: url!)
         

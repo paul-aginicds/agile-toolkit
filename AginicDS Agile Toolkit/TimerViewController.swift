@@ -13,8 +13,11 @@ class TimerViewController: UIViewController {
     
     @IBOutlet weak var timerLabel: UILabel!
     
+    @IBOutlet weak var vibrate: UISwitch!
+    
     var countdownTimer: Timer!
     var totalTime = 60
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,8 +41,10 @@ class TimerViewController: UIViewController {
             endTimer()
             startButton.isEnabled = true
         }
-        if totalTime <= 10 {
-            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+        if vibrate.isOn {
+            if totalTime <= 10 {
+                AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+            }
         }
     }
     
