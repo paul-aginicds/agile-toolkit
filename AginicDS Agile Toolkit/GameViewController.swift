@@ -172,7 +172,7 @@ extension GameViewController : SCNSceneRendererDelegate {
         }
 
         motion.getAccelerometerData { (x, y, z) in
-            self.motionForce = SCNVector3(x: x * 0.2, y:0, z: (y + 0.8) * -0.15)
+            self.motionForce = SCNVector3(x: x * 0.2, y:0, z: (y + 0.8) * -0.05)
         }
         
         
