@@ -34,7 +34,6 @@
 		3F885A52212AA38600BF05E3 /* retro2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F885A51212AA38500BF05E3 /* retro2.png */; };
 		3FA8FF5720E0BCC700C0C4CA /* PlanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5620E0BCC700C0C4CA /* PlanningViewController.swift */; };
 		3FA8FF5920E0C03600C0C4CA /* PlanningSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5820E0C03600C0C4CA /* PlanningSizeViewController.swift */; };
-		3FA8FF5B20E10D7300C0C4CA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5A20E10D7300C0C4CA /* AboutViewController.swift */; };
 		3FA8FF5D20E10F5900C0C4CA /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5C20E10F5900C0C4CA /* ServicesViewController.swift */; };
 		3FD74AF420EC51B700C0E23D /* RetroHowToViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD74AF320EC51B700C0E23D /* RetroHowToViewContoller.swift */; };
 		3FD74B0B20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FD74B0A20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg */; };
@@ -89,7 +88,6 @@
 		3F885A51212AA38500BF05E3 /* retro2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retro2.png; sourceTree = "<group>"; };
 		3FA8FF5620E0BCC700C0C4CA /* PlanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningViewController.swift; sourceTree = "<group>"; };
 		3FA8FF5820E0C03600C0C4CA /* PlanningSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningSizeViewController.swift; sourceTree = "<group>"; };
-		3FA8FF5A20E10D7300C0C4CA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		3FA8FF5C20E10F5900C0C4CA /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		3FD74AF320EC51B700C0E23D /* RetroHowToViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetroHowToViewContoller.swift; sourceTree = "<group>"; };
 		3FD74B0A20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2017_09_12_AginicDS_3243_1.jpg; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 				3F885A4C212A9F0900BF05E3 /* Retros */,
 				3FCD78AF20D67F69006D01C5 /* Images */,
 				3F7C876F20C77631000B9F4C /* AppDelegate.swift */,
-				3FA8FF5A20E10D7300C0C4CA /* AboutViewController.swift */,
 				3FA8FF5620E0BCC700C0C4CA /* PlanningViewController.swift */,
 				3F7C879320C80851000B9F4C /* NewsViewController.swift */,
 				3F0E2CA520E1DA6700E7B5BD /* AginicViewController.swift */,
@@ -386,7 +383,6 @@
 				3FA8FF5720E0BCC700C0C4CA /* PlanningViewController.swift in Sources */,
 				3F7C87B420C8B0BC000B9F4C /* RetroViewController.swift in Sources */,
 				3F7994ED22D990FC0086FFBB /* SplashViewController.swift in Sources */,
-				3FA8FF5B20E10D7300C0C4CA /* AboutViewController.swift in Sources */,
 				3FF92F8922D8538D00C3A43D /* GameViewController.swift in Sources */,
 				3FEE48C322DC805D00C3ACAA /* AginicXViewController.swift in Sources */,
 				3F7994EB22D989B10086FFBB /* VectorOperations.swift in Sources */,
