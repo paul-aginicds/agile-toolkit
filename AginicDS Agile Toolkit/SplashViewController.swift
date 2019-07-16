@@ -4,8 +4,11 @@
 import UIKit
 import SceneKit
 import AVFoundation
+import WebKit
 
-class SplashViewController: UIViewController {
+
+
+class SplashViewController: UIViewController, WKNavigationDelegate {
     
     let CategoryTree = 2
     
@@ -19,12 +22,34 @@ class SplashViewController: UIViewController {
     var motion = MotionHelper()
     var motionForce = SCNVector3(0, 0, 0)
     
+    //var webView: WKWebView!
+    
+    
     override func viewDidLoad() {
         
+
         setupScene()
         setupNodes()
+     
+       // let url = URL(string: "https://aginicds.com/get-in-touch/")!
         
+        //webView.load(URLRequest(url: url))
+        
+        //webView.allowsBackForwardNavigationGestures = true
+        
+
+
+        //preload.view.layoutSubviews()
     }
+    /*
+ 
+    override func loadView() {
+        webView = WKWebView()
+        webView.navigationDelegate = self
+        view = webView
+    }
+    */
+
     
     func setupScene(){
         sceneView = (self.view as! SCNView)
@@ -157,4 +182,3 @@ extension SplashViewController : SCNPhysicsContactDelegate {
     
     
 }
-

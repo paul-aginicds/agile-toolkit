@@ -35,11 +35,12 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         score = 0
         timeCount = 0
-        let timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(fire), userInfo: nil, repeats: true)
+        _ = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(fire), userInfo: nil, repeats: true)
 
         setupScene()
         setupNodes()
         setupSounds()
+        
     }
     
     

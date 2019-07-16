@@ -19,10 +19,38 @@ class RetroDetailViewController: UIViewController {
     
     @IBOutlet weak var tv: UITextView!
     
+    var webView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var retroPage = ""
+        
+        switch technique {
+            case "Well, Improve": retroPage = "1"
+            case "Stop, Start, Continue": retroPage = "2"
+            case "4Ls": retroPage = "3"
+            case "Mad, Bad, Sad": retroPage = "4"
+            case "Sailing": retroPage = "5"
+            case "+ Δ": retroPage = "6"
+            case "WARP": retroPage = "7"
+            case "Proud, Worried": retroPage = "8"
+            case "Lean Coffee": retroPage = "9"
+            case "Hero, Guide, Treasure, Cavern": retroPage = "10"
+        default:
+            retroPage = "1"
+        }
+
+        let url2 = URL(string: "https://aginic.com/retro"+retroPage)!
+        webView.load(URLRequest(url: url2))
+        webView.allowsBackForwardNavigationGestures = true
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
         
+        
+        /*
+ 
         retroLabel.text = technique
         
         // TODO: image dimensions (source) to determine
@@ -44,8 +72,15 @@ class RetroDetailViewController: UIViewController {
         var d : NSDictionary? = nil
         let s = try! NSAttributedString(url: url, options: opts, documentAttributes: &d)
         self.tv.attributedText = s
-        
+        */
     }
+    
+    override func loadView() {
+        webView = WKWebView()
+        //webView.navigationDelegate = self
+        view = webView
+    }
+    
     
     
     override func didReceiveMemoryWarning() {
