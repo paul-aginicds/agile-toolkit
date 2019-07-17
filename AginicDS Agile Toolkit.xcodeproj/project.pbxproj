@@ -202,13 +202,6 @@
 			path = "AginicDS Agile Toolkit";
 			sourceTree = "<group>";
 		};
-		3F885A49212A90EC00BF05E3 /* retro */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = retro;
-			sourceTree = "<group>";
-		};
 		3F885A4C212A9F0900BF05E3 /* Retros */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,7 +217,6 @@
 		3FCD78AF20D67F69006D01C5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				3F885A49212A90EC00BF05E3 /* retro */,
 				3FEE48C022DC581E00C3ACAA /* aginic_logo.png */,
 				3F7C878720C782E5000B9F4C /* AppIcon-180.png */,
 				3F7C87B920C8C9DE000B9F4C /* Icon-Toolkit.png */,
