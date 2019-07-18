@@ -8,17 +8,17 @@
 
 import UIKit
 
-class AboutViewController: UIViewController {
+class TabBarViewController: UITabBarController {
     
-    
-    @IBOutlet weak var versionLabel: UILabel!
+    //@IBOutlet  var tabBar: UITabBar?
+//    @IBOutlet weak var versionLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        versionLabel.text = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
-
+        //versionLabel.text = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
+                
     }
     
     

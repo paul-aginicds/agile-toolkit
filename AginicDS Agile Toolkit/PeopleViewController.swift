@@ -17,7 +17,7 @@ class PeopleViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        let url = URL(string: "http://www.aginicds.com/our-people/")
+        let url = URL(string: "https://aginic.com/our-people/")
         
         let request = URLRequest(url: url!)
         

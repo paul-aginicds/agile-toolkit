@@ -31,15 +31,20 @@ class GameViewController: UIViewController {
     
     var sounds:[String:SCNAudioSource] = [:]
     
+    var backgroundMusic:SCNAudioSource!
+    var musicPlayer:SCNAudioPlayer!
     
+    var timer:Timer!
+        
     override func viewDidLoad() {
         score = 0
         timeCount = 0
-        let timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(fire), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(fire), userInfo: nil, repeats: true)
 
         setupScene()
         setupNodes()
         setupSounds()
+        
     }
     
     
@@ -52,12 +57,10 @@ class GameViewController: UIViewController {
         sceneView = (self.view as! SCNView)
         sceneView.delegate = self
         
-        //sceneView.allowsCameraControl = true
+        sceneView.allowsCameraControl = true
         sceneView.showsStatistics = true
         
-        
-        
-        scene = SCNScene(named: "art.scnassets/MainScene.scn")
+        scene = SCNScene(named: "art.scnassets/PlayScene.scn")
         sceneView.scene = scene
         
         scene.physicsWorld.contactDelegate = self
@@ -90,14 +93,16 @@ class GameViewController: UIViewController {
         sounds["saw"] = sawSound
         sounds["jump"] = jumpSound
         
-        let backgroundMusic = SCNAudioSource(fileNamed: "background.mp3")!
+        /*
+ 
+        backgroundMusic = SCNAudioSource(fileNamed: "background.mp3")!
         backgroundMusic.volume = 0.1
         backgroundMusic.loops = true
         backgroundMusic.load()
         
-        let musicPlayer = SCNAudioPlayer(source: backgroundMusic)
+        musicPlayer = SCNAudioPlayer(source: backgroundMusic)
         ballNode.addAudioPlayer(musicPlayer)
-        
+        */
     }
     
     @objc func sceneViewTapped (recognizer:UITapGestureRecognizer) {
@@ -136,6 +141,28 @@ class GameViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Release any cached data, images, etc that aren't in use.
     }
+    
+    override func viewWillDisappear(_ animated : Bool) {
+        super.viewWillDisappear(animated)
+        
+        print("out")
+        //self.ballNode.removeAudioPlayer(musicPlayer)
+        
+    }
+    
+    override func viewWillAppear(_ animated : Bool) {
+        super.viewWillAppear(animated)
+        
+        print("in")
+        //backgroundMusic = SCNAudioSource(fileNamed: "background.mp3")!
+        //backgroundMusic.volume = 0.1
+        //backgroundMusic.loops = true
+        //backgroundMusic.load()
+        
+        //musicPlayer = SCNAudioPlayer(source: backgroundMusic)
+        //ballNode.addAudioPlayer(musicPlayer)
+        
+    }
 
 }
 
@@ -157,7 +184,7 @@ extension GameViewController : SCNSceneRendererDelegate {
         
         cameraPosition = SCNVector3(x: xComponent, y: yComponent, z: zComponent)
         scorePosition = SCNVector3(x: xComponent - 2.1, y: yComponent - 3, z: zComponent + 3)
-        timePosition = SCNVector3(x: xComponent + 1.4, y: yComponent - 3, z: zComponent + 3)
+        timePosition = SCNVector3(x: xComponent, y: yComponent, z: zComponent )
 
         selfieStickNode.position = cameraPosition
         
@@ -172,7 +199,7 @@ extension GameViewController : SCNSceneRendererDelegate {
         }
 
         motion.getAccelerometerData { (x, y, z) in
-            self.motionForce = SCNVector3(x: x * 0.2, y:0, z: (y + 0.8) * -0.05)
+            self.motionForce = SCNVector3(x: x * 0.2, y:0, z: (y + 0.8) * -0.28)
         }
         
         

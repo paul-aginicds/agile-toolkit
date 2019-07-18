@@ -17,7 +17,7 @@ class AginicViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        let url = URL(string: "https://aginic.com/cloud-technologies/")
+        let url = URL(string: "https://aginic.com/analytics-visualisation/")
         
         let request = URLRequest(url: url!)
         

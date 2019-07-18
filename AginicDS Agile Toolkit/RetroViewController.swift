@@ -40,6 +40,7 @@ class RetroViewController: UIViewController,UIPickerViewDataSource,UIPickerViewD
         
         picker.delegate = self
         picker.dataSource = self
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)

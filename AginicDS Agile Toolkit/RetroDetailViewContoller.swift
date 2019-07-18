@@ -11,41 +11,44 @@ import WebKit
 class RetroDetailViewController: UIViewController {
     
     var technique:String = ""
-    var file:String = "Retro1"
     
     @IBOutlet weak var techniqueImage: UIImageView!
-    
     @IBOutlet weak var retroLabel: UILabel!
-    
     @IBOutlet weak var tv: UITextView!
+    
+    var webView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        retroLabel.text = technique
+        var retroPage = ""
         
-        // TODO: image dimensions (source) to determine
-        //techniqueImage.image = UIImage(named: "retro-sailing.jpeg")
-        
-        
-        // Map techniquew to file
-        if technique == "Stop, Start, Continue" {
-            file = "Retro2"
-            techniqueImage.image = UIImage(named: "retro2.png")
-        }else {
-            techniqueImage.image = UIImage(named: "retro1.jpeg")
+        switch technique {
+            case "Well, Improve": retroPage = "1"
+            case "Stop, Start, Continue": retroPage = "2"
+            case "4Ls": retroPage = "3"
+            case "Mad, Bad, Sad": retroPage = "4"
+            case "Sailing": retroPage = "5"
+            case "+ Δ": retroPage = "6"
+            case "WARP": retroPage = "7"
+            case "Proud, Worried": retroPage = "8"
+            case "Lean Coffee": retroPage = "9"
+            case "Hero, Guide, Treasure, Cavern": retroPage = "10"
+        default:
+            retroPage = "1"
         }
-        
-        // Load in appropriate Retro technique text
-        let url = Bundle.main.url(forResource: file, withExtension: "rtf")!
-        let opts : [NSAttributedString.DocumentReadingOptionKey : Any] =
-            [.documentType : NSAttributedString.DocumentType.rtf]
-        var d : NSDictionary? = nil
-        let s = try! NSAttributedString(url: url, options: opts, documentAttributes: &d)
-        self.tv.attributedText = s
-        
+
+        let url2 = URL(string: "https://aginic.com/retro"+retroPage)!
+        webView.load(URLRequest(url: url2))
+        webView.allowsBackForwardNavigationGestures = true
     }
+    
+    override func loadView() {
+        webView = WKWebView()
+        //webView.navigationDelegate = self
+        view = webView
+    }
+    
     
     
     override func didReceiveMemoryWarning() {

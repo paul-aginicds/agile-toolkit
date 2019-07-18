@@ -11,6 +11,8 @@
 		3F0E2CA620E1DA6800E7B5BD /* AginicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CA520E1DA6700E7B5BD /* AginicViewController.swift */; };
 		3F15979A20E0B14500E99579 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15979920E0B14500E99579 /* PeopleViewController.swift */; };
 		3F15979C20E0B6E000E99579 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15979B20E0B6E000E99579 /* ContactViewController.swift */; };
+		3F272C4822DF1F3D00A99797 /* Dale_Freya_Desaturation_FreezeFrame-500x500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F272C4722DF1F3D00A99797 /* Dale_Freya_Desaturation_FreezeFrame-500x500.jpg */; };
+		3F272C4A22E1389800A99797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F272C4922E1389700A99797 /* Assets.xcassets */; };
 		3F6C894220E4D57300B54E70 /* AginicDS_Agile_ToolkitUITests1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C894120E4D57300B54E70 /* AginicDS_Agile_ToolkitUITests1.swift */; };
 		3F7994E422D9893F0086FFBB /* chainsaw.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F7994E122D9893F0086FFBB /* chainsaw.wav */; };
 		3F7994E522D9893F0086FFBB /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F7994E222D9893F0086FFBB /* jump.wav */; };
@@ -19,22 +21,20 @@
 		3F7994ED22D990FC0086FFBB /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7994EC22D990FC0086FFBB /* SplashViewController.swift */; };
 		3F7C877020C77631000B9F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C876F20C77631000B9F4C /* AppDelegate.swift */; };
 		3F7C877720C77631000B9F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C877520C77631000B9F4C /* Main.storyboard */; };
-		3F7C877920C77634000B9F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C877820C77634000B9F4C /* Assets.xcassets */; };
 		3F7C877C20C77634000B9F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C877A20C77634000B9F4C /* LaunchScreen.storyboard */; };
 		3F7C878820C782E5000B9F4C /* AppIcon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C878720C782E5000B9F4C /* AppIcon-180.png */; };
 		3F7C879420C80851000B9F4C /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C879320C80851000B9F4C /* NewsViewController.swift */; };
 		3F7C87B420C8B0BC000B9F4C /* RetroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C87B320C8B0BC000B9F4C /* RetroViewController.swift */; };
-		3F7C87B620C8C3E2000B9F4C /* retro1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C87B520C8C3E1000B9F4C /* retro1.jpeg */; };
 		3F7C87B820C8C471000B9F4C /* RetroDetailViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C87B720C8C471000B9F4C /* RetroDetailViewContoller.swift */; };
 		3F7C87BA20C8C9DE000B9F4C /* Icon-Toolkit.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C87B920C8C9DE000B9F4C /* Icon-Toolkit.png */; };
 		3F7C87BE20C8CAA5000B9F4C /* Icon-Toolkit2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C87BD20C8CAA5000B9F4C /* Icon-Toolkit2.png */; };
-		3F885A4B212A942600BF05E3 /* Retro1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3F885A4A212A942600BF05E3 /* Retro1.rtf */; };
-		3F885A4E212AA06800BF05E3 /* Retro2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3F885A4D212AA06800BF05E3 /* Retro2.rtf */; };
-		3F885A50212AA1EE00BF05E3 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3F885A4F212AA1EE00BF05E3 /* README */; };
-		3F885A52212AA38600BF05E3 /* retro2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F885A51212AA38500BF05E3 /* retro2.png */; };
+		3F944AC422DF03CC008EB2B4 /* aginicds-team-picture-449x500.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F944AC322DF03CC008EB2B4 /* aginicds-team-picture-449x500.jpg */; };
+		3F944AC622DF1068008EB2B4 /* black-and-white-flag-png-black-and-white-chequered-flag-500.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F944AC522DF1068008EB2B4 /* black-and-white-flag-png-black-and-white-chequered-flag-500.png */; };
+		3F944ACA22DF1552008EB2B4 /* brett-marty-holding-aginic-logo-500x388.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F944AC922DF1552008EB2B4 /* brett-marty-holding-aginic-logo-500x388.jpg */; };
+		3F944AD222DF1710008EB2B4 /* kisspng-ping-pong-paddles-sets-racket-sport-internationa-table-tennis-5ac3898def9721.4299320215227641739814.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F944AD122DF1710008EB2B4 /* kisspng-ping-pong-paddles-sets-racket-sport-internationa-table-tennis-5ac3898def9721.4299320215227641739814.png */; };
 		3FA8FF5720E0BCC700C0C4CA /* PlanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5620E0BCC700C0C4CA /* PlanningViewController.swift */; };
 		3FA8FF5920E0C03600C0C4CA /* PlanningSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5820E0C03600C0C4CA /* PlanningSizeViewController.swift */; };
-		3FA8FF5B20E10D7300C0C4CA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5A20E10D7300C0C4CA /* AboutViewController.swift */; };
+		3FA8FF5B20E10D7300C0C4CA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5A20E10D7300C0C4CA /* TabBarViewController.swift */; };
 		3FA8FF5D20E10F5900C0C4CA /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5C20E10F5900C0C4CA /* ServicesViewController.swift */; };
 		3FD74AF420EC51B700C0E23D /* RetroHowToViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD74AF320EC51B700C0E23D /* RetroHowToViewContoller.swift */; };
 		3FD74B0B20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FD74B0A20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg */; };
@@ -61,6 +61,8 @@
 		3F0E2CA520E1DA6700E7B5BD /* AginicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AginicViewController.swift; sourceTree = "<group>"; };
 		3F15979920E0B14500E99579 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		3F15979B20E0B6E000E99579 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		3F272C4722DF1F3D00A99797 /* Dale_Freya_Desaturation_FreezeFrame-500x500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dale_Freya_Desaturation_FreezeFrame-500x500.jpg"; sourceTree = "<group>"; };
+		3F272C4922E1389700A99797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
 		3F6C893F20E4D57300B54E70 /* AginicDS Agile ToolkitUITests1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AginicDS Agile ToolkitUITests1.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6C894120E4D57300B54E70 /* AginicDS_Agile_ToolkitUITests1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AginicDS_Agile_ToolkitUITests1.swift; sourceTree = "<group>"; };
 		3F6C894320E4D57300B54E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,23 +75,21 @@
 		3F7C876C20C77631000B9F4C /* AginicDS Agile Toolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AginicDS Agile Toolkit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7C876F20C77631000B9F4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7C877620C77631000B9F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F7C877820C77634000B9F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7C877B20C77634000B9F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F7C877D20C77634000B9F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F7C878720C782E5000B9F4C /* AppIcon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-180.png"; sourceTree = "<group>"; };
 		3F7C879320C80851000B9F4C /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		3F7C87B320C8B0BC000B9F4C /* RetroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroViewController.swift; sourceTree = "<group>"; };
-		3F7C87B520C8C3E1000B9F4C /* retro1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = retro1.jpeg; sourceTree = "<group>"; };
 		3F7C87B720C8C471000B9F4C /* RetroDetailViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroDetailViewContoller.swift; sourceTree = "<group>"; };
 		3F7C87B920C8C9DE000B9F4C /* Icon-Toolkit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Toolkit.png"; sourceTree = "<group>"; };
 		3F7C87BD20C8CAA5000B9F4C /* Icon-Toolkit2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Toolkit2.png"; sourceTree = "<group>"; };
-		3F885A4A212A942600BF05E3 /* Retro1.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Retro1.rtf; sourceTree = "<group>"; };
-		3F885A4D212AA06800BF05E3 /* Retro2.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Retro2.rtf; sourceTree = "<group>"; };
-		3F885A4F212AA1EE00BF05E3 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		3F885A51212AA38500BF05E3 /* retro2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retro2.png; sourceTree = "<group>"; };
+		3F944AC322DF03CC008EB2B4 /* aginicds-team-picture-449x500.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aginicds-team-picture-449x500.jpg"; sourceTree = "<group>"; };
+		3F944AC522DF1068008EB2B4 /* black-and-white-flag-png-black-and-white-chequered-flag-500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-and-white-flag-png-black-and-white-chequered-flag-500.png"; sourceTree = "<group>"; };
+		3F944AC922DF1552008EB2B4 /* brett-marty-holding-aginic-logo-500x388.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "brett-marty-holding-aginic-logo-500x388.jpg"; path = "../../../../Desktop/brett-marty-holding-aginic-logo-500x388.jpg"; sourceTree = "<group>"; };
+		3F944AD122DF1710008EB2B4 /* kisspng-ping-pong-paddles-sets-racket-sport-internationa-table-tennis-5ac3898def9721.4299320215227641739814.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kisspng-ping-pong-paddles-sets-racket-sport-internationa-table-tennis-5ac3898def9721.4299320215227641739814.png"; sourceTree = "<group>"; };
 		3FA8FF5620E0BCC700C0C4CA /* PlanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningViewController.swift; sourceTree = "<group>"; };
 		3FA8FF5820E0C03600C0C4CA /* PlanningSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningSizeViewController.swift; sourceTree = "<group>"; };
-		3FA8FF5A20E10D7300C0C4CA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3FA8FF5A20E10D7300C0C4CA /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		3FA8FF5C20E10F5900C0C4CA /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
 		3FD74AF320EC51B700C0E23D /* RetroHowToViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetroHowToViewContoller.swift; sourceTree = "<group>"; };
 		3FD74B0A20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2017_09_12_AginicDS_3243_1.jpg; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 				3F885A4C212A9F0900BF05E3 /* Retros */,
 				3FCD78AF20D67F69006D01C5 /* Images */,
 				3F7C876F20C77631000B9F4C /* AppDelegate.swift */,
-				3FA8FF5A20E10D7300C0C4CA /* AboutViewController.swift */,
+				3FA8FF5A20E10D7300C0C4CA /* TabBarViewController.swift */,
 				3FA8FF5620E0BCC700C0C4CA /* PlanningViewController.swift */,
 				3F7C879320C80851000B9F4C /* NewsViewController.swift */,
 				3F0E2CA520E1DA6700E7B5BD /* AginicViewController.swift */,
@@ -195,7 +195,7 @@
 				3FA8FF5820E0C03600C0C4CA /* PlanningSizeViewController.swift */,
 				3F15979B20E0B6E000E99579 /* ContactViewController.swift */,
 				3F7C877520C77631000B9F4C /* Main.storyboard */,
-				3F7C877820C77634000B9F4C /* Assets.xcassets */,
+				3F272C4922E1389700A99797 /* Assets.xcassets */,
 				3F7C877A20C77634000B9F4C /* LaunchScreen.storyboard */,
 				3F7C877D20C77634000B9F4C /* Info.plist */,
 			);
@@ -205,11 +205,6 @@
 		3F885A4C212A9F0900BF05E3 /* Retros */ = {
 			isa = PBXGroup;
 			children = (
-				3F885A51212AA38500BF05E3 /* retro2.png */,
-				3F7C87B520C8C3E1000B9F4C /* retro1.jpeg */,
-				3F885A4A212A942600BF05E3 /* Retro1.rtf */,
-				3F885A4D212AA06800BF05E3 /* Retro2.rtf */,
-				3F885A4F212AA1EE00BF05E3 /* README */,
 			);
 			path = Retros;
 			sourceTree = "<group>";
@@ -220,7 +215,12 @@
 				3FEE48C022DC581E00C3ACAA /* aginic_logo.png */,
 				3F7C878720C782E5000B9F4C /* AppIcon-180.png */,
 				3F7C87B920C8C9DE000B9F4C /* Icon-Toolkit.png */,
+				3F944AC922DF1552008EB2B4 /* brett-marty-holding-aginic-logo-500x388.jpg */,
 				3F7C87BD20C8CAA5000B9F4C /* Icon-Toolkit2.png */,
+				3F272C4722DF1F3D00A99797 /* Dale_Freya_Desaturation_FreezeFrame-500x500.jpg */,
+				3F944AD122DF1710008EB2B4 /* kisspng-ping-pong-paddles-sets-racket-sport-internationa-table-tennis-5ac3898def9721.4299320215227641739814.png */,
+				3F944AC522DF1068008EB2B4 /* black-and-white-flag-png-black-and-white-chequered-flag-500.png */,
+				3F944AC322DF03CC008EB2B4 /* aginicds-team-picture-449x500.jpg */,
 				3FD74B0A20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg */,
 				3FFB1FDA20EB1D5A0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg */,
 			);
@@ -335,21 +335,21 @@
 				3F7994E522D9893F0086FFBB /* jump.wav in Resources */,
 				3F7C87BE20C8CAA5000B9F4C /* Icon-Toolkit2.png in Resources */,
 				3F7994E422D9893F0086FFBB /* chainsaw.wav in Resources */,
+				3F272C4A22E1389800A99797 /* Assets.xcassets in Resources */,
 				3FD74B0B20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg in Resources */,
-				3F885A4E212AA06800BF05E3 /* Retro2.rtf in Resources */,
 				3F7C877C20C77634000B9F4C /* LaunchScreen.storyboard in Resources */,
-				3F7C87B620C8C3E2000B9F4C /* retro1.jpeg in Resources */,
-				3F885A50212AA1EE00BF05E3 /* README in Resources */,
-				3F885A4B212A942600BF05E3 /* Retro1.rtf in Resources */,
 				3F7C878820C782E5000B9F4C /* AppIcon-180.png in Resources */,
 				3FFB1FDB20EB1D5B0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg in Resources */,
-				3F7C877920C77634000B9F4C /* Assets.xcassets in Resources */,
 				3FEE48C122DC581F00C3ACAA /* aginic_logo.png in Resources */,
+				3F944AC622DF1068008EB2B4 /* black-and-white-flag-png-black-and-white-chequered-flag-500.png in Resources */,
+				3F272C4822DF1F3D00A99797 /* Dale_Freya_Desaturation_FreezeFrame-500x500.jpg in Resources */,
+				3F944AD222DF1710008EB2B4 /* kisspng-ping-pong-paddles-sets-racket-sport-internationa-table-tennis-5ac3898def9721.4299320215227641739814.png in Resources */,
+				3F944AC422DF03CC008EB2B4 /* aginicds-team-picture-449x500.jpg in Resources */,
 				3F7C87BA20C8C9DE000B9F4C /* Icon-Toolkit.png in Resources */,
 				3F7C877720C77631000B9F4C /* Main.storyboard in Resources */,
 				3FEE48BD22DC551600C3ACAA /* art.scnassets in Resources */,
+				3F944ACA22DF1552008EB2B4 /* brett-marty-holding-aginic-logo-500x388.jpg in Resources */,
 				3F7994E622D9893F0086FFBB /* background.mp3 in Resources */,
-				3F885A52212AA38600BF05E3 /* retro2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +378,7 @@
 				3FA8FF5720E0BCC700C0C4CA /* PlanningViewController.swift in Sources */,
 				3F7C87B420C8B0BC000B9F4C /* RetroViewController.swift in Sources */,
 				3F7994ED22D990FC0086FFBB /* SplashViewController.swift in Sources */,
-				3FA8FF5B20E10D7300C0C4CA /* AboutViewController.swift in Sources */,
+				3FA8FF5B20E10D7300C0C4CA /* TabBarViewController.swift in Sources */,
 				3FF92F8922D8538D00C3A43D /* GameViewController.swift in Sources */,
 				3FEE48C322DC805D00C3ACAA /* AginicXViewController.swift in Sources */,
 				3F7994EB22D989B10086FFBB /* VectorOperations.swift in Sources */,

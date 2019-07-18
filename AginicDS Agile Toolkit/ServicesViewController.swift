@@ -17,7 +17,7 @@ class ServicesViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        let url = URL(string: "http://aginicds.com/sustainable-scalable-agile-delivery/")
+        let url = URL(string: "https://aginic.com/adaptive-delivery/")
         
         let request = URLRequest(url: url!)
         
