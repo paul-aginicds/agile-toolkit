@@ -390,7 +390,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2CM-X7-EGK"/>
                     </view>
+<<<<<<< HEAD
                     <tabBarItem key="tabBarItem" title="Poker" image="p.circle" catalog="system" selectedImage="p.circle.fill" id="9rI-op-jvJ"/>
+=======
+                    <tabBarItem key="tabBarItem" title="Planning" image="p.circle" catalog="system" selectedImage="p.circle.fill" id="9rI-op-jvJ"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="pokerBtn0" destination="JlL-Iu-gOe" id="oeG-2q-afP"/>
@@ -409,7 +413,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFi-Io-wBK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-116" y="-868.22660098522169"/>
+            <point key="canvasLocation" x="-1058" y="-1098"/>
         </scene>
         <!--Poker-->
         <scene sceneID="fEx-Ac-H6F">
@@ -490,16 +494,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="if1-L0-2Oo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="945" y="-868"/>
+            <point key="canvasLocation" x="-116" y="-1098"/>
         </scene>
-        <!--Retrospective-->
+        <!--RetroTechniques-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
+<<<<<<< HEAD
                 <viewController id="8rJ-Kc-sve" customClass="RetroViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="QS5-Rx-YEW">
+=======
+                <viewController title="RetroTechniques" id="8rJ-Kc-sve" customClass="RetroViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2017_09_12_AginicDS_3409_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oe7-x4-caj">
+                                <rect key="frame" x="-253" y="165" width="880" height="584"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="aginic_logo.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JyB-JJ-X0x">
                                 <rect key="frame" x="-63" y="-27" width="500" height="228"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -507,6 +520,7 @@
                                     <accessibilityTraits key="traits" image="YES" searchField="YES"/>
                                 </accessibility>
                             </imageView>
+<<<<<<< HEAD
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="retro-bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="jAm-vJ-hNI">
                                 <rect key="frame" x="0.0" y="164" width="380" height="217"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -520,12 +534,19 @@
                                 <rect key="frame" x="10" y="640" width="127" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Suprise me 🎁">
+=======
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SnF-by-kqS">
+                                <rect key="frame" x="303" y="507" width="52" height="207"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                <state key="normal" title="Go">
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                                     <color key="titleColor" red="0.97647058819999999" green="0.81960784310000001" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="supriseMeButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="D9k-c1-2a0"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Retrospective" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RvK-Yt-vvg">
                                 <rect key="frame" x="0.0" y="98" width="375" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -535,11 +556,16 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select Technique" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0W-77-Msi">
                                 <rect key="frame" x="3" y="370" width="375" height="72"/>
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select Technique" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0W-77-Msi">
+                                <rect key="frame" x="0.0" y="200" width="375" height="72"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
                                 <color key="textColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFM-cf-FLB">
                                 <rect key="frame" x="341" y="117" width="34" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -575,6 +601,17 @@
                             <constraint firstItem="ygT-Pg-ePd" firstAttribute="top" secondItem="AXc-RQ-I4I" secondAttribute="bottom" constant="20" id="B3U-eD-JhM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="SnF-by-kqS" secondAttribute="trailing" id="FF9-Q6-DUR"/>
                             <constraint firstItem="ygT-Pg-ePd" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="10" id="WSh-rP-UDT"/>
+=======
+                            <pickerView alpha="0.90000000000000002" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AXc-RQ-I4I">
+                                <rect key="frame" x="-2.2824552588472216" y="271" width="374.99999999999955" height="216"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="SnF-by-kqS" secondAttribute="trailing" constant="20" id="ArF-yI-fG6"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="bottom" secondItem="SnF-by-kqS" secondAttribute="bottom" constant="10" id="bWt-jc-fRX"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                             <constraint firstItem="SnF-by-kqS" firstAttribute="top" secondItem="AXc-RQ-I4I" secondAttribute="bottom" constant="20" id="k01-Mb-F9I"/>
                             <constraint firstItem="AXc-RQ-I4I" firstAttribute="centerY" secondItem="QS5-Rx-YEW" secondAttribute="centerY" id="qla-Xk-GOO"/>
                         </constraints>
@@ -589,17 +626,21 @@
             </objects>
             <point key="canvasLocation" x="4605.6000000000004" y="65.763546798029566"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="TabBarViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
+<<<<<<< HEAD
                         <segue destination="Gq1-Ns-Idr" kind="relationship" relationship="viewControllers" id="ktE-jY-IqF"/>
+=======
+                        <segue destination="zCj-Mf-tnW" kind="relationship" relationship="viewControllers" id="7hQ-r0-uDA"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                         <segue destination="eH5-3H-IAb" kind="relationship" relationship="viewControllers" id="iEE-uF-3OX"/>
                         <segue destination="cKR-5R-D72" kind="relationship" relationship="viewControllers" id="Qi6-4a-TBp"/>
                         <segue destination="xDI-eZ-uFw" kind="relationship" relationship="viewControllers" id="N5G-Dx-tSe"/>
@@ -609,15 +650,24 @@
                         <segue destination="hhJ-eo-Fjp" kind="relationship" relationship="viewControllers" id="LfE-KT-Pzx"/>
                         <segue destination="ZHu-R0-cf1" kind="relationship" relationship="viewControllers" id="ieR-9f-coz"/>
                         <segue destination="1ag-7x-sKD" kind="relationship" relationship="viewControllers" id="IvM-cs-OTK"/>
+<<<<<<< HEAD
                         <segue destination="fXv-Lz-CRf" kind="relationship" relationship="viewControllers" id="efG-VS-2SW"/>
                         <segue destination="zCz-Pi-7uM" kind="relationship" relationship="viewControllers" id="oXr-RD-FPi"/>
+=======
+                        <segue destination="zCz-Pi-7uM" kind="relationship" relationship="viewControllers" id="oXr-RD-FPi"/>
+                        <segue destination="fXv-Lz-CRf" kind="relationship" relationship="viewControllers" id="7tc-oB-fh2"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1057" y="-156"/>
         </scene>
+<<<<<<< HEAD
         <!--Boombox-->
+=======
+        <!--News-->
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
         <scene sceneID="qMG-Me-lgw">
             <objects>
                 <viewController id="eH5-3H-IAb" customClass="NewsViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
@@ -634,7 +684,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="9ki-4J-zOu"/>
                     </view>
+<<<<<<< HEAD
                     <tabBarItem key="tabBarItem" title="Boombox" image="n.circle" catalog="system" selectedImage="n.circle.fill" id="Jsf-kX-Dg5"/>
+=======
+                    <tabBarItem key="tabBarItem" title="News" image="n.circle" catalog="system" selectedImage="n.circle.fill" id="Jsf-kX-Dg5"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                     <connections>
                         <outlet property="webview" destination="nWU-mk-EQy" id="rUM-dn-byy"/>
                     </connections>
@@ -671,14 +725,15 @@
             </objects>
             <point key="canvasLocation" x="1460" y="1014.5320197044335"/>
         </scene>
-        <!--Retrospective-->
+        <!--RetroDetail-->
         <scene sceneID="PFE-7h-EZk">
             <objects>
-                <viewController id="7yU-FV-yMd" customClass="RetroDetailViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="RetroDetail" id="7yU-FV-yMd" customClass="RetroDetailViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a8M-eh-ikf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="aginic_logo.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kub-Pt-hPy">
                                 <rect key="frame" x="-63" y="-27" width="500" height="228"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -752,6 +807,10 @@
                             </textView>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oGZ-QS-NbQ">
                                 <rect key="frame" x="71" y="225" width="240" height="390"/>
+=======
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oGZ-QS-NbQ">
+                                <rect key="frame" x="71" y="225" width="240" height="386"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -761,6 +820,7 @@
                             </wkWebView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<<<<<<< HEAD
                         <constraints>
                             <constraint firstItem="O3p-Dt-yOZ" firstAttribute="centerX" secondItem="a8M-eh-ikf" secondAttribute="centerX" id="244-By-Duk"/>
                             <constraint firstItem="FVI-Wa-a7T" firstAttribute="top" secondItem="O3p-Dt-yOZ" secondAttribute="bottom" constant="38.640000000000001" id="8em-B3-6YR"/>
@@ -779,18 +839,19 @@
                             <constraint firstItem="OFg-hL-Jp9" firstAttribute="centerX" secondItem="a8M-eh-ikf" secondAttribute="centerX" id="sZ9-gC-Gie"/>
                             <constraint firstItem="OFg-hL-Jp9" firstAttribute="leading" secondItem="3eE-po-mXb" secondAttribute="leading" constant="10" id="wbl-3Z-hqc"/>
                         </constraints>
+=======
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                         <viewLayoutGuide key="safeArea" id="3eE-po-mXb"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Retrospective" image="second" id="Zs4-Ob-r6L"/>
-                    <connections>
-                        <outlet property="retroLabel" destination="OFg-hL-Jp9" id="oPB-RQ-g5D"/>
-                        <outlet property="techniqueImage" destination="O3p-Dt-yOZ" id="9ef-Lf-Khc"/>
-                        <outlet property="tv" destination="FVI-Wa-a7T" id="bUi-AB-ALS"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i2J-Lb-eLy" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="5442" y="-678"/>
+=======
+            <point key="canvasLocation" x="6328.8000000000002" y="-129.31034482758622"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
         </scene>
         <!--Our People-->
         <scene sceneID="1M2-sz-JsM">
@@ -845,7 +906,7 @@
             </objects>
             <point key="canvasLocation" x="2696.8000000000002" y="1014.5320197044335"/>
         </scene>
-        <!--Timer-->
+        <!--Timer Util-->
         <scene sceneID="tEC-Lw-Q04">
             <objects>
                 <viewController id="aQm-HV-SI9" customClass="TimerViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
@@ -972,7 +1033,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HNQ-gV-jAk"/>
                     </view>
+<<<<<<< HEAD
                     <tabBarItem key="tabBarItem" title="Timer" image="t.circle" catalog="system" selectedImage="t.circle.fill" id="Cct-H2-2TT"/>
+=======
+                    <tabBarItem key="tabBarItem" title="Timer Util" image="t.circle" catalog="system" selectedImage="t.circle.fill" id="Cct-H2-2TT"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="startButton" destination="vIl-cQ-NTO" id="Xyk-LC-mtI"/>
@@ -1249,9 +1314,15 @@ Misc:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="53y-hK-Rta" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="3270" y="-890"/>
         </scene>
         <!--Play with Us-->
+=======
+            <point key="canvasLocation" x="-3881" y="-1029"/>
+        </scene>
+        <!--Play with us-->
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
         <scene sceneID="hhj-Ak-jsV">
             <objects>
                 <viewController id="fXv-Lz-CRf" customClass="GameViewController" customModule="AginicDS_Agile_Toolkit" sceneMemberID="viewController">
@@ -1260,17 +1331,21 @@ Misc:
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </sceneKitView>
+<<<<<<< HEAD
                     <tabBarItem key="tabBarItem" title="Play with Us" image="g.circle" catalog="system" selectedImage="g.circle.fill" id="VtP-K4-NdS" userLabel="Game"/>
+=======
+                    <tabBarItem key="tabBarItem" title="Play with us" image="g.circle" catalog="system" selectedImage="g.circle.fill" id="VtP-K4-NdS" userLabel="Game"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KYy-aj-idY" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3551" y="1048"/>
         </scene>
-        <!--Retrospective-->
+        <!--RetroMain-->
         <scene sceneID="u6v-si-7kv">
             <objects>
-                <viewController id="xDI-eZ-uFw" sceneMemberID="viewController">
+                <viewController title="RetroMain" id="xDI-eZ-uFw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kXt-xe-ats">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1376,27 +1451,1274 @@ Misc:
             </objects>
             <point key="canvasLocation" x="3269.5999999999999" y="-129.31034482758622"/>
         </scene>
+<<<<<<< HEAD
         <!--About-->
         <scene sceneID="8Un-q4-DzS">
             <objects>
                 <viewController id="Gq1-Ns-Idr" customClass="SplashViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
                     <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="TMM-MO-MEF">
+=======
+        <!--RetroHowTo-->
+        <scene sceneID="3Na-P3-Lzc">
+            <objects>
+                <viewController title="RetroHowTo" id="oMt-P8-6Jt" customClass="RetroHowToViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="apK-kU-TtR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="aginic_logo.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="khv-tV-aIE">
+                                <rect key="frame" x="-63" y="-27" width="500" height="228"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" searchField="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WT2-Qh-BBv">
+                                <rect key="frame" x="20" y="165" width="169.33333333333334" height="71.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="60"/>
+                                <color key="textColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Abj-ec-y70">
+                                <rect key="frame" x="10" y="247" width="355" height="998"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Retrospective Prime Directive ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="22" name="Noteworthy-Bold"/>
+                                            <font key="NSOriginalFont" size="22" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="&quot;">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Regardless of what we discover, we understand">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="&quot;, ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Norm Kerth">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.14509803921568629" green="0.14509803921568629" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="14" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" red="0.14509803921568629" green="0.14509803921568629" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="   ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Why? ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="22" name="Noteworthy-Bold"/>
+                                            <font key="NSOriginalFont" size="22" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> To help teams run their own retrospectives without an experienced facilitator. A step by step guide in the same way as a cook book is.  </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="How to">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="22" name="Noteworthy-Bold"/>
+                                            <font key="NSOriginalFont" size="22" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> 
+1. Decide who in the team will facilitate.
+2. (Optional) Do a warm-up exercise  3. Choose a retrospective and go for it  </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Materials needed">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="22" name="Noteworthy-Bold"/>
+                                            <font key="NSOriginalFont" size="22" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> 
+- Sharpies (one per member)  - Post-its
+- Room with a whiteboard
+- Timer (a phone usually works just fine)  </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Spheres of influence">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="22" name="Noteworthy-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="22" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Focus on things that you can affect or the retrospective quite quickly ends up with ranting and energy goes down. ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="We can control this - direct action">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="We can influence this - persuade or recommend action for someone else Everything else - don’t spend too much effort here ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="28" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="11" name="TamilMN"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Abj-ec-y70" firstAttribute="top" secondItem="WT2-Qh-BBv" secondAttribute="bottom" constant="10" id="4oX-Wx-GxL"/>
+                            <constraint firstItem="WT2-Qh-BBv" firstAttribute="leading" secondItem="S1J-WD-yyu" secondAttribute="leading" constant="20" id="Jch-vZ-30t"/>
+                            <constraint firstItem="Abj-ec-y70" firstAttribute="leading" secondItem="S1J-WD-yyu" secondAttribute="leading" constant="10" id="SRk-vk-7fk"/>
+                            <constraint firstAttribute="height" secondItem="Abj-ec-y70" secondAttribute="height" multiplier="1.9" id="Vtk-QX-CSi"/>
+                            <constraint firstItem="S1J-WD-yyu" firstAttribute="trailing" secondItem="Abj-ec-y70" secondAttribute="trailing" constant="10" id="dzM-IJ-erR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="S1J-WD-yyu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Retrospective" image="second" id="VNw-A9-MqU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KvD-BS-dfc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1888.8" y="-868.22660098522169"/>
+        </scene>
+        <!--RetroWarmUps-->
+        <scene sceneID="cF6-lo-39k">
+            <objects>
+                <viewController title="RetroWarmUps" id="ZI4-R0-CLn" customClass="RetroHowToViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tiL-cg-e18">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="aginic_logo.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MMI-ae-uu3">
+                                <rect key="frame" x="-63" y="-27" width="500" height="228"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" searchField="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warm ups" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSS-RW-Wj3">
+                                <rect key="frame" x="20" y="165" width="245" height="71.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="60"/>
+                                <color key="textColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghZ-RT-OqM" customClass="Retro">
+                                <rect key="frame" x="10" y="273" width="355" height="404"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Try one of these">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="22" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="22" name="Noteworthy-Bold"/>
+                                            <font key="NSOriginalFont" size="22" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="1. Team in one word  2. Line up  3. Superhero  4. Weather report  5. Positive and true">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="   ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ghZ-RT-OqM" firstAttribute="leading" secondItem="2ai-uK-RRl" secondAttribute="leading" constant="10" id="2mC-8U-29t"/>
+                            <constraint firstItem="2ai-uK-RRl" firstAttribute="trailing" secondItem="ghZ-RT-OqM" secondAttribute="trailing" constant="10" id="5uC-dO-ujy"/>
+                            <constraint firstItem="nSS-RW-Wj3" firstAttribute="leading" secondItem="2ai-uK-RRl" secondAttribute="leading" constant="20" id="9ui-6d-DHs"/>
+                            <constraint firstAttribute="height" secondItem="ghZ-RT-OqM" secondAttribute="height" multiplier="2" id="Eql-Js-dqX"/>
+                            <constraint firstItem="ghZ-RT-OqM" firstAttribute="top" secondItem="nSS-RW-Wj3" secondAttribute="bottom" constant="36" id="dIc-LG-Kai"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2ai-uK-RRl"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Retrospective" image="second" id="NUW-8I-5MO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7hQ-hQ-ei9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2776.8000000000002" y="-868.22660098522169"/>
+        </scene>
+        <!--RetroVoting-->
+        <scene sceneID="GVH-YV-PiQ">
+            <objects>
+                <viewController title="RetroVoting" id="idf-Gw-MWz" customClass="RetroHowToViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hWX-Be-PfF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="aginic_logo.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="leD-Uc-00X">
+                                <rect key="frame" x="-63" y="-27" width="500" height="228"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" searchField="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Voting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NlD-Wb-e8X">
+                                <rect key="frame" x="20" y="121" width="151.66666666666666" height="72"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="60"/>
+                                <color key="textColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NlD-Wb-e8X" firstAttribute="leading" secondItem="LgV-KS-Eqf" secondAttribute="leading" constant="20" id="M29-1P-ts2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LgV-KS-Eqf"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Retrospective" image="second" id="j5V-Pz-hL8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AxB-cS-onD" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3636" y="-868"/>
+        </scene>
+        <!--RetroFacilitation-->
+        <scene sceneID="QCV-uE-s0t">
+            <objects>
+                <viewController storyboardIdentifier="R1" title="RetroFacilitation" id="K0P-qr-BoE" customClass="RetroHowToViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fzl-Is-10a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="aginic_logo.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a0s-aL-PiP">
+                                <rect key="frame" x="-63" y="-27" width="500" height="228"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" searchField="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facilitation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Xq-hz-5nJ">
+                                <rect key="frame" x="20" y="165" width="248" height="72"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="60"/>
+                                <color key="textColor" red="0.37181565030000002" green="0.37181565030000002" blue="0.37181565030000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retrospective" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vu9-YX-fJ5">
+                                <rect key="frame" x="195" y="114" width="89" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIh-0l-oVa" customClass="Retro">
+                                <rect key="frame" x="10" y="273" width="355" height="404"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Before the Retro">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="22" name="Noteworthy-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="22" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="22" name="Noteworthy-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="22" name="Noteworthy-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="22" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="There a couple of things that are generally good to do before starting the retro. ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	1.	</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.649999999999999" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Be in the room a couple of minutes earlier to prepare for the retro. ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.649999999999999" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.649999999999999" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	2.	</string>
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.649999999999999" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Make sure you have everything you need like post-its, sharpies, previous actions list, etc with you before going to the retro. ">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.649999999999999" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="26.649999999999999" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Facilitation tips ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="22" name="Noteworthy-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="22" name="Noteworthy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="46" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="46" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CQk
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="●">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="STSongti-SC-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">  Make sure everyone participates and talks. You can for instance ask: “X, what do you think about this?” 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CQk
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="●">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="STSongti-SC-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">  If team gets stuck in the conversation ask questions like: 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CQk
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="72" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="47">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="72">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="○">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="STSongti-SC-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="72" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="47">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="72">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">  “What are we trying to solve?” 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="72" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="47">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="72">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CQk
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="72" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="47">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="72">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="○">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="STSongti-SC-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="72" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="47">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="72">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">  “Why is this important for us?” 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="72" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="47">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="72">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CQk
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="72" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="47">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="72">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="○">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="STSongti-SC-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="72" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="47">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="72">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">  “What else can we do to effect this problem?” 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="72" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="47">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="72">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CQk
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="●">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="STSongti-SC-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">  Try to be aware of the time. 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+CQk
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="●">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="STSongti-SC-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  Always make sure people know where to find the actions at  the end of the retro. ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" For more advice on how to facilitate, please reach out to ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="AginicDS">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">. 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.37255173921585083" green="0.37254416942596436" blue="0.37254929542541504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Noteworthy-Light"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <font key="NSOriginalFont" size="16" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" headIndent="36" minimumLineHeight="31" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8Xq-hz-5nJ" firstAttribute="top" secondItem="Vu9-YX-fJ5" secondAttribute="bottom" constant="34" id="0sz-lD-mrZ"/>
+                            <constraint firstItem="Vu9-YX-fJ5" firstAttribute="top" secondItem="fN1-pZ-Ydv" secondAttribute="top" constant="70" id="4pT-KO-kHq"/>
+                            <constraint firstAttribute="height" secondItem="zIh-0l-oVa" secondAttribute="height" multiplier="2" id="BJh-Qw-YHS"/>
+                            <constraint firstItem="fN1-pZ-Ydv" firstAttribute="trailing" secondItem="zIh-0l-oVa" secondAttribute="trailing" constant="10" id="Vk6-cZ-gLg"/>
+                            <constraint firstItem="8Xq-hz-5nJ" firstAttribute="leading" secondItem="fN1-pZ-Ydv" secondAttribute="leading" constant="20" id="Wdn-Pq-U6o"/>
+                            <constraint firstItem="Vu9-YX-fJ5" firstAttribute="leading" secondItem="fN1-pZ-Ydv" secondAttribute="leading" constant="195" id="k3V-D0-pVl"/>
+                            <constraint firstItem="zIh-0l-oVa" firstAttribute="top" secondItem="8Xq-hz-5nJ" secondAttribute="bottom" constant="36" id="kaB-H0-rnl"/>
+                            <constraint firstItem="zIh-0l-oVa" firstAttribute="leading" secondItem="fN1-pZ-Ydv" secondAttribute="leading" constant="10" id="rsc-cI-SO0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fN1-pZ-Ydv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Retrospective" image="second" id="1sc-OP-Nhg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Etb-2x-q5W" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4504.8000000000002" y="-868.22660098522169"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="GQA-LC-Ofh">
+            <objects>
+                <viewController id="zCj-Mf-tnW" customClass="SplashViewController" customModule="AginicDS_Agile_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
+                    <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="mLa-Zt-s0R">
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </sceneKitView>
+<<<<<<< HEAD
                     <tabBarItem key="tabBarItem" title="About" image="a.circle" catalog="system" selectedImage="a.circle.fill" id="alI-oj-NPC"/>
                     <navigationItem key="navigationItem" id="RY7-Kl-kX8"/>
+=======
+                    <tabBarItem key="tabBarItem" title="About" image="a.circle" catalog="system" selectedImage="a.circle.fill" id="Ouu-B0-AGa" userLabel="Game"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JTY-gH-de6" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QFS-Dj-kGf" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="-3550" y="-157"/>
+=======
+            <point key="canvasLocation" x="-2860" y="151"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
         </scene>
     </scenes>
     <resources>
         <image name="1.circle" catalog="system" width="64" height="62"/>
         <image name="1.circle.fill" catalog="system" width="64" height="62"/>
         <image name="2017_09_12_AginicDS_3409_1.jpg" width="480" height="319.92001342773438"/>
+<<<<<<< HEAD
         <image name="Icon-Toolkit2.png" width="41.759998321533203" height="36.720001220703125"/>
+=======
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
         <image name="a.circle" catalog="system" width="64" height="62"/>
         <image name="a.circle.fill" catalog="system" width="64" height="62"/>
         <image name="aginic_logo.png" width="106" height="56"/>
@@ -1411,11 +2733,16 @@ Misc:
         <image name="n.circle.fill" catalog="system" width="64" height="62"/>
         <image name="p.circle" catalog="system" width="64" height="62"/>
         <image name="p.circle.fill" catalog="system" width="64" height="62"/>
+<<<<<<< HEAD
         <image name="poker-rear.png" width="280" height="456"/>
         <image name="r.circle" catalog="system" width="64" height="62"/>
         <image name="r.circle.fill" catalog="system" width="64" height="62"/>
         <image name="retro-bg.png" width="680" height="386"/>
         <image name="retro1.jpeg" width="233" height="216"/>
+=======
+        <image name="r.circle" catalog="system" width="64" height="62"/>
+        <image name="r.circle.fill" catalog="system" width="64" height="62"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
         <image name="second" width="30" height="30"/>
         <image name="t.circle" catalog="system" width="64" height="62"/>
         <image name="t.circle.fill" catalog="system" width="64" height="62"/>
@@ -1423,7 +2750,11 @@ Misc:
         <image name="v.circle.fill" catalog="system" width="64" height="62"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
         <segue reference="iB3-z3-XGu"/>
         <segue reference="qWK-QQ-n3f"/>
+=======
+        <segue reference="spl-QD-qrE"/>
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
     </inferredMetricsTieBreakers>
 </document>

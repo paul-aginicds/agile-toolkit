@@ -9,7 +9,7 @@ class PeopleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = URL(string: "http://www.aginicds.com/our-people/")
+        let url = URL(string: "https://aginic.com/our-people/")
         
         let request = URLRequest(url: url!)
         

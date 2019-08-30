@@ -5,20 +5,32 @@ import WebKit
 class RetroDetailViewController: UIViewController {
     
     var technique:String = ""
+<<<<<<< HEAD
     var webView: WKWebView!
 
+=======
+    
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
     @IBOutlet weak var techniqueImage: UIImageView!
     @IBOutlet weak var retroLabel: UILabel!
     @IBOutlet weak var tv: UITextView!
     
+    var webView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+<<<<<<< HEAD
         
         var retroPage = ""
         var url2:URL
         var urlStr = ""
         
         //TODO: determine more sustainable and extendable mechanism
+=======
+        
+        var retroPage = ""
+        
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
         switch technique {
             case "Well, Improve": retroPage = "1"
             case "Stop, Start, Continue": retroPage = "2"
@@ -30,6 +42,7 @@ class RetroDetailViewController: UIViewController {
             case "Proud, Worried": retroPage = "8"
             case "Lean Coffee": retroPage = "9"
             case "Hero, Guide, Treasure, Cavern": retroPage = "10"
+<<<<<<< HEAD
             case "retro-help": retroPage = "-help"
             default:
             retroPage = "1"
@@ -42,14 +55,29 @@ class RetroDetailViewController: UIViewController {
             urlStr = "https://aginic.com/retro"+retroPage+"/"
         }
         url2 = URL(string: urlStr)!
+=======
+        default:
+            retroPage = "1"
+        }
+
+        let url2 = URL(string: "https://aginic.com/retro"+retroPage)!
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
         webView.load(URLRequest(url: url2))
         webView.allowsBackForwardNavigationGestures = true
     }
     
     override func loadView() {
         webView = WKWebView()
+<<<<<<< HEAD
         view = webView
     }
+=======
+        //webView.navigationDelegate = self
+        view = webView
+    }
+    
+    
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

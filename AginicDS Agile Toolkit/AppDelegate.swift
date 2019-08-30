@@ -10,6 +10,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+<<<<<<< HEAD
+=======
+        
+        //if let tabBarController = self.window?.rootViewController as? UITabBarController {
+        //    tabBarController.selectedIndex = 0
+        //}
+        
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
         return true
     }
 

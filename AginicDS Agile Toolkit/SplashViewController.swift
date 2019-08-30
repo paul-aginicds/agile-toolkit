@@ -2,7 +2,8 @@
 
 import UIKit
 import SceneKit
-import AVFoundation
+
+
 
 
 class SplashViewController: UIViewController {
@@ -13,25 +14,36 @@ class SplashViewController: UIViewController {
     var scene:SCNScene!
     
     var ballNode:SCNNode!
-    var plane1Node:SCNPlane!
     var selfieStickNode:SCNNode!
     
     var motion = MotionHelper()
     var motionForce = SCNVector3(0, 0, 0)
     
+    
     override func viewDidLoad() {
 
         setupScene()
         setupNodes()
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
     }
+    
     
     func setupScene(){
         sceneView = (self.view as! SCNView)
         sceneView.delegate = self
+        sceneView.showsStatistics = true
+        
         
         sceneView.allowsCameraControl = true
+<<<<<<< HEAD
         sceneView.showsStatistics = true
         scene = SCNScene(named: "art.scnassets/SplashScene.scn")
+=======
+        scene = SCNScene(named: "art.scnassets/StartScene.scn")
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
         sceneView.scene = scene
         
         scene.physicsWorld.contactDelegate = self
@@ -42,7 +54,11 @@ class SplashViewController: UIViewController {
         
         tapRecognizer.addTarget(self, action: #selector(GameViewController.sceneViewTapped(recognizer:)))
         sceneView.addGestureRecognizer(tapRecognizer)
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
     }
     
     func setupNodes() {
@@ -63,7 +79,7 @@ class SplashViewController: UIViewController {
             let result = hitResults.first
             if let node = result?.node {
                 if node.name == "ball" {
-                    ballNode.physicsBody?.applyForce(SCNVector3(x: 0, y:4, z: -2), asImpulse: true)
+                    ballNode.physicsBody?.applyForce(SCNVector3(x: 0, y:5, z: -2), asImpulse: true)
                 }
             }
         }
@@ -103,7 +119,7 @@ extension SplashViewController : SCNSceneRendererDelegate {
         //selfieStickNode.position = cameraPosition
         
         motion.getAccelerometerData { (x, y, z) in
-            self.motionForce = SCNVector3(x: x * 0.05, y:0, z: (y + 0.8) * -0.02)
+            self.motionForce = SCNVector3(x: x * 0.05, y:0, z: (y + 0.8) * -0.08)
         }
         
         ballNode.physicsBody?.velocity += motionForce
@@ -114,7 +130,7 @@ extension SplashViewController : SCNSceneRendererDelegate {
 extension SplashViewController : SCNPhysicsContactDelegate {
     func physicsWorld(_ world: SCNPhysicsWorld, didBegin contact: SCNPhysicsContact) {
         var contactNode:SCNNode!
- 
+        
         if contact.nodeA.name == "ball" {
             contactNode = contact.nodeB
         }else{

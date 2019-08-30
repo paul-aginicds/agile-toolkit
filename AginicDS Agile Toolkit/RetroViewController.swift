@@ -50,7 +50,11 @@ class RetroViewController: UIViewController,UIPickerViewDataSource,UIPickerViewD
         
         picker.delegate = self
         picker.dataSource = self
+<<<<<<< HEAD
         picker.selectRow(pickerData.count / 2, inComponent: 0, animated: true)
+=======
+        
+>>>>>>> 8dbabb13022637a3b73fd3787f5eb9f73acef208
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
