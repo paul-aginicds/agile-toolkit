@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F00C868231770380065A0C5 /* poker-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00C864231770370065A0C5 /* poker-40.png */; };
+		3F00C869231770380065A0C5 /* poker-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00C865231770370065A0C5 /* poker-8.png */; };
+		3F00C86A231770380065A0C5 /* poker-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00C866231770380065A0C5 /* poker-13.png */; };
+		3F00C86B231770380065A0C5 /* poker-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00C867231770380065A0C5 /* poker-20.png */; };
+		3F00C86D231770400065A0C5 /* poker-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00C86C231770400065A0C5 /* poker-5.png */; };
+		3F00C86F231771A60065A0C5 /* poker-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00C86E231771A60065A0C5 /* poker-1.png */; };
+		3F00C871231771AC0065A0C5 /* poker-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00C870231771AC0065A0C5 /* poker-2.png */; };
+		3F00C873231771F00065A0C5 /* poker-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00C872231771F00065A0C5 /* poker-0.png */; };
+		3F00C87723177EB50065A0C5 /* poker-rear.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00C87623177EB30065A0C5 /* poker-rear.png */; };
+		3F00C87923178B4D0065A0C5 /* retro-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00C87823178B4D0065A0C5 /* retro-bg.png */; };
+		3F00C87B23178BC30065A0C5 /* launch-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F00C87A23178BC30065A0C5 /* launch-bg.png */; };
 		3F0E2CA420E1C65400E7B5BD /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CA320E1C65400E7B5BD /* TimerViewController.swift */; };
 		3F0E2CA620E1DA6800E7B5BD /* AginicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CA520E1DA6700E7B5BD /* AginicViewController.swift */; };
 		3F15979A20E0B14500E99579 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15979920E0B14500E99579 /* PeopleViewController.swift */; };
 		3F15979C20E0B6E000E99579 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F15979B20E0B6E000E99579 /* ContactViewController.swift */; };
-		3F4A418522DE08EA001C4AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4A418422DE08EA001C4AF5 /* Assets.xcassets */; };
 		3F6C894220E4D57300B54E70 /* AginicDS_Agile_ToolkitUITests1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C894120E4D57300B54E70 /* AginicDS_Agile_ToolkitUITests1.swift */; };
+		3F731A1E2316556700B8845D /* poker-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F731A1D2316556700B8845D /* poker-3.png */; };
+		3F731A20231659EA00B8845D /* poker-☕️.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F731A1F231659EA00B8845D /* poker-☕️.png */; };
+		3F731A2323165BFD00B8845D /* poker-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F731A2123165BFC00B8845D /* poker-100.png */; };
+		3F731A2423165BFD00B8845D /* poker-?.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F731A2223165BFD00B8845D /* poker-?.png */; };
+		3F731A26231665B400B8845D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F731A25231665B400B8845D /* Assets.xcassets */; };
+		3F742FDC2318EF260058901C /* suprise-me.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F742FDB2318EF260058901C /* suprise-me.png */; };
 		3F7994E422D9893F0086FFBB /* chainsaw.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F7994E122D9893F0086FFBB /* chainsaw.wav */; };
 		3F7994E522D9893F0086FFBB /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F7994E222D9893F0086FFBB /* jump.wav */; };
 		3F7994E622D9893F0086FFBB /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7994E322D9893F0086FFBB /* background.mp3 */; };
@@ -21,7 +37,6 @@
 		3F7C877020C77631000B9F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C876F20C77631000B9F4C /* AppDelegate.swift */; };
 		3F7C877720C77631000B9F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C877520C77631000B9F4C /* Main.storyboard */; };
 		3F7C877C20C77634000B9F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C877A20C77634000B9F4C /* LaunchScreen.storyboard */; };
-		3F7C878820C782E5000B9F4C /* AppIcon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C878720C782E5000B9F4C /* AppIcon-180.png */; };
 		3F7C879420C80851000B9F4C /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C879320C80851000B9F4C /* NewsViewController.swift */; };
 		3F7C87B420C8B0BC000B9F4C /* RetroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C87B320C8B0BC000B9F4C /* RetroViewController.swift */; };
 		3F7C87B820C8C471000B9F4C /* RetroDetailViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C87B720C8C471000B9F4C /* RetroDetailViewContoller.swift */; };
@@ -29,8 +44,6 @@
 		3F7C87BE20C8CAA5000B9F4C /* Icon-Toolkit2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C87BD20C8CAA5000B9F4C /* Icon-Toolkit2.png */; };
 		3FA8FF5720E0BCC700C0C4CA /* PlanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5620E0BCC700C0C4CA /* PlanningViewController.swift */; };
 		3FA8FF5920E0C03600C0C4CA /* PlanningSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5820E0C03600C0C4CA /* PlanningSizeViewController.swift */; };
-		3FA8FF5D20E10F5900C0C4CA /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8FF5C20E10F5900C0C4CA /* ServicesViewController.swift */; };
-		3FD74AF420EC51B700C0E23D /* RetroHowToViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD74AF320EC51B700C0E23D /* RetroHowToViewContoller.swift */; };
 		3FD74B0B20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FD74B0A20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg */; };
 		3FEE48BD22DC551600C3ACAA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE48BC22DC551500C3ACAA /* art.scnassets */; };
 		3FEE48C122DC581F00C3ACAA /* aginic_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEE48C022DC581E00C3ACAA /* aginic_logo.png */; };
@@ -51,14 +64,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F00C864231770370065A0C5 /* poker-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-40.png"; sourceTree = "<group>"; };
+		3F00C865231770370065A0C5 /* poker-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-8.png"; sourceTree = "<group>"; };
+		3F00C866231770380065A0C5 /* poker-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-13.png"; sourceTree = "<group>"; };
+		3F00C867231770380065A0C5 /* poker-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-20.png"; sourceTree = "<group>"; };
+		3F00C86C231770400065A0C5 /* poker-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-5.png"; sourceTree = "<group>"; };
+		3F00C86E231771A60065A0C5 /* poker-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-1.png"; sourceTree = "<group>"; };
+		3F00C870231771AC0065A0C5 /* poker-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-2.png"; sourceTree = "<group>"; };
+		3F00C872231771F00065A0C5 /* poker-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-0.png"; sourceTree = "<group>"; };
+		3F00C87623177EB30065A0C5 /* poker-rear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "poker-rear.png"; path = "../../../../../Desktop/poker-rear.png"; sourceTree = "<group>"; };
+		3F00C87823178B4D0065A0C5 /* retro-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "retro-bg.png"; sourceTree = "<group>"; };
+		3F00C87A23178BC30065A0C5 /* launch-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-bg.png"; sourceTree = "<group>"; };
 		3F0E2CA320E1C65400E7B5BD /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		3F0E2CA520E1DA6700E7B5BD /* AginicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AginicViewController.swift; sourceTree = "<group>"; };
 		3F15979920E0B14500E99579 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		3F15979B20E0B6E000E99579 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
-		3F4A418422DE08EA001C4AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/AginicDS/Apps/Poker/AginicDS Planning Poker/AginicDS Agile Toolkit/Assets.xcassets"; sourceTree = "<group>"; };
+		3F52E17B2318F6ED00FF92B3 /* poker-rear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "poker-rear.png"; path = "../../../../../../Desktop/poker-rear.png"; sourceTree = "<group>"; };
 		3F6C893F20E4D57300B54E70 /* AginicDS Agile ToolkitUITests1.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AginicDS Agile ToolkitUITests1.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6C894120E4D57300B54E70 /* AginicDS_Agile_ToolkitUITests1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AginicDS_Agile_ToolkitUITests1.swift; sourceTree = "<group>"; };
 		3F6C894320E4D57300B54E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F731A1D2316556700B8845D /* poker-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-3.png"; sourceTree = "<group>"; };
+		3F731A1F231659EA00B8845D /* poker-☕️.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-☕️.png"; sourceTree = "<group>"; };
+		3F731A2123165BFC00B8845D /* poker-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-100.png"; sourceTree = "<group>"; };
+		3F731A2223165BFD00B8845D /* poker-?.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-?.png"; sourceTree = "<group>"; };
+		3F731A25231665B400B8845D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F742FDB2318EF260058901C /* suprise-me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "suprise-me.png"; sourceTree = "<group>"; };
+		3F742FDE2318F5430058901C /* poker-rear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poker-rear.png"; sourceTree = "<group>"; };
+		3F742FDF2318F54F0058901C /* poker-rear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "poker-rear.png"; path = "../../../../../../Desktop/poker-rear.png"; sourceTree = "<group>"; };
+		3F742FE02318F55A0058901C /* poker-rear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "poker-rear.png"; path = "../../../../../../Desktop/poker-rear.png"; sourceTree = "<group>"; };
 		3F7994E122D9893F0086FFBB /* chainsaw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chainsaw.wav; sourceTree = "<group>"; };
 		3F7994E222D9893F0086FFBB /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
 		3F7994E322D9893F0086FFBB /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
@@ -70,7 +103,6 @@
 		3F7C877620C77631000B9F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F7C877B20C77634000B9F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F7C877D20C77634000B9F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F7C878720C782E5000B9F4C /* AppIcon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-180.png"; sourceTree = "<group>"; };
 		3F7C879320C80851000B9F4C /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		3F7C87B320C8B0BC000B9F4C /* RetroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroViewController.swift; sourceTree = "<group>"; };
 		3F7C87B720C8C471000B9F4C /* RetroDetailViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroDetailViewContoller.swift; sourceTree = "<group>"; };
@@ -78,8 +110,6 @@
 		3F7C87BD20C8CAA5000B9F4C /* Icon-Toolkit2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Toolkit2.png"; sourceTree = "<group>"; };
 		3FA8FF5620E0BCC700C0C4CA /* PlanningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningViewController.swift; sourceTree = "<group>"; };
 		3FA8FF5820E0C03600C0C4CA /* PlanningSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningSizeViewController.swift; sourceTree = "<group>"; };
-		3FA8FF5C20E10F5900C0C4CA /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
-		3FD74AF320EC51B700C0E23D /* RetroHowToViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetroHowToViewContoller.swift; sourceTree = "<group>"; };
 		3FD74B0A20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2017_09_12_AginicDS_3243_1.jpg; sourceTree = "<group>"; };
 		3FEE48BC22DC551500C3ACAA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		3FEE48C022DC581E00C3ACAA /* aginic_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aginic_logo.png; sourceTree = "<group>"; };
@@ -109,6 +139,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F52E17A2318F6C200FF92B3 /* Retro */ = {
+			isa = PBXGroup;
+			children = (
+				3F742FDB2318EF260058901C /* suprise-me.png */,
+				3F00C87823178B4D0065A0C5 /* retro-bg.png */,
+			);
+			path = Retro;
+			sourceTree = "<group>";
+		};
 		3F6C894020E4D57300B54E70 /* AginicDS Agile ToolkitUITests1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +155,29 @@
 				3F6C894320E4D57300B54E70 /* Info.plist */,
 			);
 			path = "AginicDS Agile ToolkitUITests1";
+			sourceTree = "<group>";
+		};
+		3F742FDD2318F5270058901C /* Poker */ = {
+			isa = PBXGroup;
+			children = (
+				3F00C86E231771A60065A0C5 /* poker-1.png */,
+				3F00C86C231770400065A0C5 /* poker-5.png */,
+				3F00C870231771AC0065A0C5 /* poker-2.png */,
+				3F00C865231770370065A0C5 /* poker-8.png */,
+				3F00C866231770380065A0C5 /* poker-13.png */,
+				3F00C867231770380065A0C5 /* poker-20.png */,
+				3F742FDE2318F5430058901C /* poker-rear.png */,
+				3F00C864231770370065A0C5 /* poker-40.png */,
+				3F731A2123165BFC00B8845D /* poker-100.png */,
+				3F52E17B2318F6ED00FF92B3 /* poker-rear.png */,
+				3F731A2223165BFD00B8845D /* poker-?.png */,
+				3F742FE02318F55A0058901C /* poker-rear.png */,
+				3F731A1D2316556700B8845D /* poker-3.png */,
+				3F742FDF2318F54F0058901C /* poker-rear.png */,
+				3F731A1F231659EA00B8845D /* poker-☕️.png */,
+				3F00C872231771F00065A0C5 /* poker-0.png */,
+			);
+			path = Poker;
 			sourceTree = "<group>";
 		};
 		3F7994E022D9893F0086FFBB /* Sounds */ = {
@@ -160,25 +222,23 @@
 		3F7C876E20C77631000B9F4C /* AginicDS Agile Toolkit */ = {
 			isa = PBXGroup;
 			children = (
-				3F4A418422DE08EA001C4AF5 /* Assets.xcassets */,
+				3F731A25231665B400B8845D /* Assets.xcassets */,
 				3FEE48BC22DC551500C3ACAA /* art.scnassets */,
 				3F7994E722D989B10086FFBB /* Helper */,
 				3F7994E022D9893F0086FFBB /* Sounds */,
 				3FCD78AF20D67F69006D01C5 /* Images */,
 				3F7C876F20C77631000B9F4C /* AppDelegate.swift */,
-				3FA8FF5620E0BCC700C0C4CA /* PlanningViewController.swift */,
 				3F7C879320C80851000B9F4C /* NewsViewController.swift */,
 				3F0E2CA520E1DA6700E7B5BD /* AginicViewController.swift */,
 				3FEE48C222DC805D00C3ACAA /* AginicXViewController.swift */,
 				3FEE48C422DC819300C3ACAA /* TestPlan.xctestplan */,
 				3F0E2CA320E1C65400E7B5BD /* TimerViewController.swift */,
 				3F15979920E0B14500E99579 /* PeopleViewController.swift */,
-				3FA8FF5C20E10F5900C0C4CA /* ServicesViewController.swift */,
-				3F7C87B320C8B0BC000B9F4C /* RetroViewController.swift */,
 				3FF92F8822D8538D00C3A43D /* GameViewController.swift */,
+				3F7C87B320C8B0BC000B9F4C /* RetroViewController.swift */,
 				3F7C87B720C8C471000B9F4C /* RetroDetailViewContoller.swift */,
-				3FD74AF320EC51B700C0E23D /* RetroHowToViewContoller.swift */,
 				3F7994EC22D990FC0086FFBB /* SplashViewController.swift */,
+				3FA8FF5620E0BCC700C0C4CA /* PlanningViewController.swift */,
 				3FA8FF5820E0C03600C0C4CA /* PlanningSizeViewController.swift */,
 				3F15979B20E0B6E000E99579 /* ContactViewController.swift */,
 				3F7C877520C77631000B9F4C /* Main.storyboard */,
@@ -191,10 +251,13 @@
 		3FCD78AF20D67F69006D01C5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3F52E17A2318F6C200FF92B3 /* Retro */,
+				3F742FDD2318F5270058901C /* Poker */,
 				3FEE48C022DC581E00C3ACAA /* aginic_logo.png */,
-				3F7C878720C782E5000B9F4C /* AppIcon-180.png */,
 				3F7C87B920C8C9DE000B9F4C /* Icon-Toolkit.png */,
+				3F00C87623177EB30065A0C5 /* poker-rear.png */,
 				3F7C87BD20C8CAA5000B9F4C /* Icon-Toolkit2.png */,
+				3F00C87A23178BC30065A0C5 /* launch-bg.png */,
 				3FD74B0A20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg */,
 				3FFB1FDA20EB1D5A0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg */,
 			);
@@ -275,7 +338,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F7C876720C77631000B9F4C /* Build configuration list for PBXProject "AginicDS Agile Toolkit" */;
+			buildConfigurationList = 3F7C876720C77631000B9F4C /* Build configuration list for PBXProject "Aginic Agile Toolkit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -306,19 +369,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F00C87723177EB50065A0C5 /* poker-rear.png in Resources */,
+				3F00C869231770380065A0C5 /* poker-8.png in Resources */,
 				3F7994E522D9893F0086FFBB /* jump.wav in Resources */,
 				3F7C87BE20C8CAA5000B9F4C /* Icon-Toolkit2.png in Resources */,
+				3F00C86B231770380065A0C5 /* poker-20.png in Resources */,
 				3F7994E422D9893F0086FFBB /* chainsaw.wav in Resources */,
 				3FD74B0B20EDD24700C0E23D /* 2017_09_12_AginicDS_3243_1.jpg in Resources */,
 				3F7C877C20C77634000B9F4C /* LaunchScreen.storyboard in Resources */,
-				3F7C878820C782E5000B9F4C /* AppIcon-180.png in Resources */,
-				3F4A418522DE08EA001C4AF5 /* Assets.xcassets in Resources */,
+				3F731A2423165BFD00B8845D /* poker-?.png in Resources */,
+				3F00C87B23178BC30065A0C5 /* launch-bg.png in Resources */,
+				3F731A26231665B400B8845D /* Assets.xcassets in Resources */,
+				3F742FDC2318EF260058901C /* suprise-me.png in Resources */,
 				3FFB1FDB20EB1D5B0045BEB4 /* 2017_09_12_AginicDS_3409_1.jpg in Resources */,
+				3F00C873231771F00065A0C5 /* poker-0.png in Resources */,
+				3F00C868231770380065A0C5 /* poker-40.png in Resources */,
+				3F731A20231659EA00B8845D /* poker-☕️.png in Resources */,
 				3FEE48C122DC581F00C3ACAA /* aginic_logo.png in Resources */,
+				3F00C86A231770380065A0C5 /* poker-13.png in Resources */,
+				3F00C86D231770400065A0C5 /* poker-5.png in Resources */,
 				3F7C87BA20C8C9DE000B9F4C /* Icon-Toolkit.png in Resources */,
 				3F7C877720C77631000B9F4C /* Main.storyboard in Resources */,
+				3F00C86F231771A60065A0C5 /* poker-1.png in Resources */,
+				3F731A1E2316556700B8845D /* poker-3.png in Resources */,
 				3FEE48BD22DC551600C3ACAA /* art.scnassets in Resources */,
 				3F7994E622D9893F0086FFBB /* background.mp3 in Resources */,
+				3F00C871231771AC0065A0C5 /* poker-2.png in Resources */,
+				3F731A2323165BFD00B8845D /* poker-100.png in Resources */,
+				3F00C87923178B4D0065A0C5 /* retro-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,9 +428,7 @@
 				3FF92F8922D8538D00C3A43D /* GameViewController.swift in Sources */,
 				3FEE48C322DC805D00C3ACAA /* AginicXViewController.swift in Sources */,
 				3F7994EB22D989B10086FFBB /* VectorOperations.swift in Sources */,
-				3FA8FF5D20E10F5900C0C4CA /* ServicesViewController.swift in Sources */,
 				3F0E2CA420E1C65400E7B5BD /* TimerViewController.swift in Sources */,
-				3FD74AF420EC51B700C0E23D /* RetroHowToViewContoller.swift in Sources */,
 				3F7C879420C80851000B9F4C /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,7 +678,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F7C876720C77631000B9F4C /* Build configuration list for PBXProject "AginicDS Agile Toolkit" */ = {
+		3F7C876720C77631000B9F4C /* Build configuration list for PBXProject "Aginic Agile Toolkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F7C877E20C77634000B9F4C /* Debug */,

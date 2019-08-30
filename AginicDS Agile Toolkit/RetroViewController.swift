@@ -1,10 +1,4 @@
 //
-//  RetroViewController.swift
-//  AginicDS Agile Toolkit
-//
-//  Created by Paul Thornton on 07/06/2018.
-//  Copyright © 2018 AginicDS. All rights reserved.
-//
 
 import WebKit
 
@@ -14,13 +8,30 @@ class RetroViewController: UIViewController,UIPickerViewDataSource,UIPickerViewD
     @IBOutlet weak var picker: UIPickerView!
     
     @IBAction func didHitButton(_ sender: UIButton) {
-        
         s = pickerData[picker.selectedRow(inComponent: 0)]
-
     }
     
-    let pickerData = ["Well, Improve","Stop, Start, Continue","4Ls","Mad, Bad, Sad","Sailing","+ Δ", "WARP", "Proud, Worried", "Lean Coffee", "Hero, Guide, Treasure, Cavern"]
-
+    @IBAction func didHitHelpButton(_ sender: Any) {
+        s = "retro-help"
+    }
+    
+    //TODO: move to data source so content management possible without app re-release
+    let pickerData = [
+        "Well, Improve",
+        "Stop, Start, Continue",
+        "4Ls",
+        "Mad, Bad, Sad",
+        "Agile Sailing",
+        "+ Δ",
+        "WARP",
+        "Proud, Worried",
+        "Lean Coffee",
+        "Hero, Guide, Treasure, Cavern",
+        "FLAP",
+        "Circle Celebration",
+        "Pleasure Gain",
+        "Isn't It Crazy"
+    ]
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -36,10 +47,10 @@ class RetroViewController: UIViewController,UIPickerViewDataSource,UIPickerViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         picker.delegate = self
         picker.dataSource = self
+        picker.selectRow(pickerData.count / 2, inComponent: 0, animated: true)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
@@ -49,8 +60,43 @@ class RetroViewController: UIViewController,UIPickerViewDataSource,UIPickerViewD
             let vc = segue.destination as? RetroDetailViewController
             vc?.technique = s
         }
+        
     }
-    
+    @IBAction func supriseMeButton(_ sender: Any) {
+        
+        let number = Int.random(in: 0 ..< pickerData.count)
+        
+        print(number)
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            self.picker.selectRow(0, inComponent: 0, animated: true)
+            print(0)
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+            self.picker.selectRow(11, inComponent: 0, animated: true)
+            print(11)
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.9) {
+            self.picker.selectRow(2, inComponent: 0, animated: true)
+            print(2)
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.3) {
+            self.picker.selectRow(5, inComponent: 0, animated: true)
+            print(5)
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.6) {
+            self.picker.selectRow(1, inComponent: 0, animated: true)
+            print(1)
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.9) {
+            self.picker.selectRow(9, inComponent: 0, animated: true)
+            print(9)
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+            self.picker.selectRow(number, inComponent: 0, animated: true)
+            print(number)
+        }
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

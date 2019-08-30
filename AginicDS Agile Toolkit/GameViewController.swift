@@ -1,10 +1,4 @@
 //
-//  GameViewController.swift
-//  HitTheTree
-//
-//  Created by Brian Advent on 26.04.18.
-//  Copyright © 2018 Brian Advent. All rights reserved.
-//
 
 import UIKit
 import SceneKit
@@ -40,7 +34,6 @@ class GameViewController: UIViewController {
         setupScene()
         setupNodes()
         setupSounds()
-        
     }
     
     
@@ -55,8 +48,6 @@ class GameViewController: UIViewController {
         
         //sceneView.allowsCameraControl = true
         sceneView.showsStatistics = true
-        
-        
         
         scene = SCNScene(named: "art.scnassets/MainScene.scn")
         sceneView.scene = scene
@@ -120,9 +111,7 @@ class GameViewController: UIViewController {
             }
         }
         
-        
     }
-    
     
     override var shouldAutorotate: Bool {
         return false
@@ -131,7 +120,6 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -176,11 +164,8 @@ extension GameViewController : SCNSceneRendererDelegate {
             self.motionForce = SCNVector3(x: x * 0.2, y:0, z: (y + 0.8) * -0.05)
         }
         
-        
         ballNode.physicsBody?.velocity += motionForce
-        
     }
-    
     
 }
 
@@ -197,10 +182,7 @@ extension GameViewController : SCNPhysicsContactDelegate {
         if contactNode.physicsBody?.categoryBitMask == 6 {
             contactNode.isHidden = true
             
-//            _ = SCNAction.wait(duration: 2)
-//            _ = SCNAction.run { (node) in
-                self.viewDidLoad()
-//            }
+            self.viewDidLoad()
             
         }
         
@@ -233,7 +215,6 @@ extension GameViewController : SCNPhysicsContactDelegate {
         
         if contactNode.physicsBody?.categoryBitMask == 3 {
             contactNode.isHidden = true
-            //AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
             
             score = score + 10
             
@@ -251,15 +232,9 @@ extension GameViewController : SCNPhysicsContactDelegate {
         }
 
         if contactNode.physicsBody?.categoryBitMask == CategoryTree {
-            
-            //contactNode.isHidden = true
-            
-            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+        AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
 
             score = score - 1
-            
-            //let sawSound = sounds["saw"]!
-            //ballNode.runAction(SCNAction.playAudio(sawSound, waitForCompletion: false))
             
             let waitAction = SCNAction.wait(duration: 3)
             let unhideAction = SCNAction.run { (node) in
@@ -271,9 +246,6 @@ extension GameViewController : SCNPhysicsContactDelegate {
             contactNode.runAction(actionSequence)
         }
         
-       
-        
     }
-    
     
 }

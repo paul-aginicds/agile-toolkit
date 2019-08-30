@@ -1,10 +1,4 @@
 //
-//  AppDelegate.swift
-//  AginicDS Agile Toolkit
-//
-//  Created by Paul Thornton on 06/06/2018.
-//  Copyright © 2018 AginicDS. All rights reserved.
-//
 
 import UIKit
 
@@ -12,8 +6,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
     
     internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

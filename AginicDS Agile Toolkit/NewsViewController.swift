@@ -1,10 +1,4 @@
 //
-//  NewsViewController.swift
-//  AginicDS Agile Toolkit
-//
-//  Created by Paul Thornton on 06/06/2018.
-//  Copyright © 2018 AginicDS. All rights reserved.
-//
 
 import WebKit
 

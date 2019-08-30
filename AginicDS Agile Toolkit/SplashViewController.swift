@@ -1,14 +1,11 @@
 //
-//
 
 import UIKit
 import SceneKit
 import AVFoundation
-import WebKit
 
 
-
-class SplashViewController: UIViewController, WKNavigationDelegate {
+class SplashViewController: UIViewController {
     
     let CategoryTree = 2
     
@@ -22,40 +19,18 @@ class SplashViewController: UIViewController, WKNavigationDelegate {
     var motion = MotionHelper()
     var motionForce = SCNVector3(0, 0, 0)
     
-    //var webView: WKWebView!
-    
-    
     override func viewDidLoad() {
-        
 
         setupScene()
         setupNodes()
-     
-       // let url = URL(string: "https://aginicds.com/get-in-touch/")!
-        
-        //webView.load(URLRequest(url: url))
-        
-        //webView.allowsBackForwardNavigationGestures = true
-        
-
-
-        //preload.view.layoutSubviews()
     }
-    /*
- 
-    override func loadView() {
-        webView = WKWebView()
-        webView.navigationDelegate = self
-        view = webView
-    }
-    */
-
     
     func setupScene(){
         sceneView = (self.view as! SCNView)
         sceneView.delegate = self
         
         sceneView.allowsCameraControl = true
+        sceneView.showsStatistics = true
         scene = SCNScene(named: "art.scnassets/SplashScene.scn")
         sceneView.scene = scene
         
@@ -68,17 +43,6 @@ class SplashViewController: UIViewController, WKNavigationDelegate {
         tapRecognizer.addTarget(self, action: #selector(GameViewController.sceneViewTapped(recognizer:)))
         sceneView.addGestureRecognizer(tapRecognizer)
 
-        let movieFileURL = Bundle.main.url(forResource: "art.scnassets/Marty_600_clip", withExtension: "mp4")!
-        let player = AVPlayer(url:movieFileURL)
-        
-       // plane1Node = scene.rootNode.childNode(withName: "plane1", recursively: true)!
-       // plane1Node.firstMaterial?.diffuse.contents = player
-        
-        //scene.background.contents = player
-        //sceneView.play(nil) //without this line the movie was not playing
-        
-        player.play()
-        
     }
     
     func setupNodes() {
@@ -86,7 +50,6 @@ class SplashViewController: UIViewController, WKNavigationDelegate {
         ballNode.physicsBody?.contactTestBitMask = CategoryTree
         selfieStickNode = scene.rootNode.childNode(withName: "selfieStick", recursively: true)!
     }
-    
     
     @objc func sceneViewTapped (recognizer:UITapGestureRecognizer) {
         
@@ -104,10 +67,7 @@ class SplashViewController: UIViewController, WKNavigationDelegate {
                 }
             }
         }
-        
-        
     }
-    
     
     override var shouldAutorotate: Bool {
         return false
@@ -116,7 +76,6 @@ class SplashViewController: UIViewController, WKNavigationDelegate {
     override var prefersStatusBarHidden: Bool {
         return true
     }
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -127,7 +86,6 @@ class SplashViewController: UIViewController, WKNavigationDelegate {
 
 extension SplashViewController : SCNSceneRendererDelegate {
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
-        
         
         let ball = ballNode.presentation
         let ballPosition = ball.position
@@ -149,10 +107,8 @@ extension SplashViewController : SCNSceneRendererDelegate {
         }
         
         ballNode.physicsBody?.velocity += motionForce
-        
     }
-    
-    
+
 }
 
 extension SplashViewController : SCNPhysicsContactDelegate {
@@ -179,6 +135,5 @@ extension SplashViewController : SCNPhysicsContactDelegate {
         }
         
     }
-    
     
 }

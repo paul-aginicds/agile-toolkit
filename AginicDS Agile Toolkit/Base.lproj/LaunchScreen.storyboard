@@ -16,6 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch-bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="rtd-do-AWo">
+                                <rect key="frame" x="-205.5" y="0.0" width="786" height="667"/>
+                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="aginic_logo.png" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TZx-Za-xDP">
                                 <rect key="frame" x="-63" y="-27" width="500" height="228"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -30,15 +33,15 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="v1.9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNO-Ei-1Qe">
-                                <rect key="frame" x="175" y="630" width="25" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNO-Ei-1Qe">
+                                <rect key="frame" x="174" y="426" width="20" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BETA RELEASE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9p-cg-4tp">
-                                <rect key="frame" x="93" y="575" width="188" height="36"/>
+                                <rect key="frame" x="93" y="371" width="188" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
                                 <color key="textColor" red="0.97647058819999999" green="0.81960784310000001" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -46,6 +49,11 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rtd-do-AWo" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="QMu-fh-jk6"/>
+                            <constraint firstItem="rtd-do-AWo" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TUA-Lq-IuW"/>
+                            <constraint firstItem="rtd-do-AWo" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="YMW-Xh-QSQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -56,5 +64,6 @@
     </scenes>
     <resources>
         <image name="aginic_logo.png" width="106" height="56"/>
+        <image name="launch-bg.png" width="786" height="775"/>
     </resources>
 </document>
